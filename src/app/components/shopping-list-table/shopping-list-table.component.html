@@ -1,0 +1,48 @@
+<table class="shopping-table">
+  <thead>
+    <tr>
+      <th class="col-check"></th>
+      <th class="col-item">Item</th>
+      <th class="col-amount">Amount</th>
+      <th class="col-unit">Unit</th>
+      <th class="col-from">From</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (item of items(); track $index) {
+      <tr
+        class="item-row"
+        [class.item-row--checked]="isChecked($index)"
+        (click)="toggleExpand($index)"
+      >
+        <td class="col-check">
+          <input
+            type="checkbox"
+            [checked]="isChecked($index)"
+            (click)="$event.stopPropagation(); toggleCheck($index)"
+            [attr.aria-label]="'Check ' + item.item"
+          />
+        </td>
+        <td class="col-item">{{ item.item }}</td>
+        <td class="col-amount">{{ item.unit === 'to_taste' ? '—' : item.totalAmount }}</td>
+        <td class="col-unit">{{ item.unit }}</td>
+        <td class="col-from">{{ sourceRecipes(item) }}</td>
+      </tr>
+      @if (isExpanded($index)) {
+        <tr class="detail-row">
+          <td colspan="5">
+            <div class="sources">
+              <p class="sources-title">Used in:</p>
+              @for (src of item.sources; track $index) {
+                <div class="source">
+                  <span class="source-name">{{ src.recipeName }}</span>
+                  <span class="source-amount">{{ src.amount }} {{ src.unit }}</span>
+                </div>
+              }
+            </div>
+          </td>
+        </tr>
+      }
+    }
+  </tbody>
+</table>

@@ -1,0 +1,33 @@
+<article class="recipe-card" (click)="onView()">
+  <div class="recipe-card__image">
+    <app-category-icon [category]="recipe().category" />
+  </div>
+
+  <div class="recipe-card__content">
+    <app-category-badge [category]="recipe().category" />
+    <h3 class="recipe-card__title">{{ recipe().name }}</h3>
+
+    @if (recipe().rating) {
+      <app-star-rating [rating]="recipe().rating ?? 0" [count]="recipe().ratingCount ?? 0" />
+    }
+
+    <div class="recipe-card__meta">
+      @if (recipe().cookTime) {
+        <span class="meta-item">{{ recipe().cookTime }}</span>
+      }
+      @if (recipe().cookingMethod) {
+        <span class="meta-item">{{ recipe().cookingMethod }}</span>
+      }
+      <span class="meta-item">Serves {{ recipe().servings }}</span>
+    </div>
+
+    <div class="recipe-card__actions">
+      <button class="btn-ghost" type="button" (click)="onView(); $event.stopPropagation()">
+        View Recipe
+      </button>
+      <button class="btn-primary" type="button" (click)="onAddToPlan(); $event.stopPropagation()">
+        Add to Plan
+      </button>
+    </div>
+  </div>
+</article>

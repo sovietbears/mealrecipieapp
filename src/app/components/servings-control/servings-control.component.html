@@ -1,0 +1,5 @@
+<div class="servings-control">
+  <button type="button" class="stepper-btn" (click)="decrease()" [disabled]="servings() <= min()" aria-label="Decrease servings">−</button>
+  <input type="number" [value]="servings()" (input)="onInput($event)" [min]="min()" [max]="max()" aria-label="Servings" />
+  <button type="button" class="stepper-btn" (click)="increase()" [disabled]="servings() >= max()" aria-label="Increase servings">+</button>
+</div>

@@ -1,0 +1,71 @@
+<div class="meal-plan-page">
+  <div class="page-header">
+    <div class="header-left">
+      <h1 class="page-title">Your Weekly Meal Plan</h1>
+      <p class="page-subtitle">Click any day to add meals</p>
+    </div>
+    @if (mealPlanService.totalMeals() > 0) {
+      <button type="button" class="btn-ghost btn-small" (click)="clearAll()">Clear All</button>
+    }
+  </div>
+
+  @if (mealPlanService.totalMeals() === 0) {
+    <app-empty-state message="No meals planned yet — tap a day to add your first recipe 🍽️" icon="📅" />
+  }
+
+  <div class="plan-grid">
+    @for (day of days; track day) {
+      <div class="day-card">
+        <div class="day-header">
+          <span class="day-label">{{ dayLabels[day] }}</span>
+        </div>
+        <div class="day-meals">
+          @for (mealType of mealTypes; track mealType) {
+            <div class="meal-type-section">
+              <div class="meal-type-label">
+                <span>{{ mealEmojis[mealType] }}</span>
+                <span>{{ mealLabels[mealType] }}</span>
+              </div>
+              @if (getMealsForDayMeal(day, mealType).length === 0) {
+                <button type="button" class="slot-add-btn" (click)="openAddDialog(day, mealType)">
+                  <span>+</span>
+                  <span>Add</span>
+                </button>
+              }
+              @for (entry of getMealsForDayMeal(day, mealType); track entry.id) {
+                <div class="meal-entry">
+                  <span class="meal-name">{{ getRecipeName(entry.recipeId) }}</span>
+                  <div class="meal-controls">
+                    <input
+                      type="number"
+                      class="servings-input"
+                      [value]="entry.servings"
+                      (change)="onServingsInput(entry.id, $event)"
+                      min="1"
+                      max="50"
+                    />
+                    <button type="button" class="remove-btn" (click)="removeMeal(entry.id)" aria-label="Remove">&times;</button>
+                  </div>
+                </div>
+              }
+            </div>
+          }
+        </div>
+      </div>
+    }
+  </div>
+
+  @if (mealPlanService.totalMeals() > 0) {
+    <div class="plan-summary">
+      <span>📊 {{ mealPlanService.totalMeals() }} meals</span>
+      <span>·</span>
+      <span>{{ mealPlanService.totalServings() }} servings</span>
+      <span>·</span>
+      <span>{{ mealPlanService.uniqueRecipes() }} recipes</span>
+    </div>
+  }
+
+  @if (showDialog()) {
+    <app-add-meal-dialog [initialDay]="dialogDay()" [initialMealType]="dialogMealType()" (close)="closeAddDialog()" />
+  }
+</div>

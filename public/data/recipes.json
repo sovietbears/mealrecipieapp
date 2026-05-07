@@ -1,0 +1,405 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Simple Flapjack",
+      "category": "Snack",
+      "rating": 4.9,
+      "ratingCount": 236,
+      "cookTime": "25 min",
+      "cookingMethod": "Batch cooking",
+      "servings": 12,
+      "note": "This recipe works best when making 12 servings at once.",
+      "ingredients": [
+        { "item": "unsalted butter", "amount": 90, "unit": "g" },
+        { "item": "light brown sugar", "amount": 55, "unit": "g" },
+        { "item": "honey", "amount": 25, "unit": "g" },
+        { "item": "rolled oats", "amount": 190, "unit": "g" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Preheat the oven to 180C and line a 20cm x 20cm baking tray with parchment." },
+        { "step": 2, "instruction": "Place the butter, sugar and honey into a saucepan. Heat over a low heat and stir until the butter has melted and the ingredients have mixed together. Add the oats and combine well." },
+        { "step": 3, "instruction": "Spoon the mix into the lined tin and press down. Bake for 15-20 minutes, or until golden around the edges. Remove from the oven and leave to cool in the tin. Slice up and enjoy!" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Almond and Honey Pancakes with Blueberries",
+      "category": "General Meal",
+      "rating": 4.9,
+      "ratingCount": 624,
+      "cookTime": "15 min",
+      "cookingMethod": "Family friendly",
+      "servings": 1,
+      "ingredients": [
+        { "item": "ground almonds", "amount": 20, "unit": "g" },
+        { "item": "rolled oats", "amount": 15, "unit": "g" },
+        { "item": "baking powder", "amount": 0.5, "unit": "tsp" },
+        { "item": "large egg", "amount": 1, "unit": "whole" },
+        { "item": "almond milk, unsweetened", "amount": 35, "unit": "ml" },
+        { "item": "honey", "amount": 3, "unit": "tsp" },
+        { "item": "salt", "amount": 1, "unit": "pinch" },
+        { "item": "coconut oil", "amount": 0.5, "unit": "tsp" },
+        { "item": "yoghurt, such as greek, natural, soya", "amount": 1, "unit": "tbsp" },
+        { "item": "blueberries", "amount": 55, "unit": "g" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Combine the ground almonds, rolled oats, baking powder, egg, almond milk, half of the honey and a pinch of salt in a liquidiser and blend until smooth." },
+        { "step": 2, "instruction": "Melt the coconut oil in a non-stick frying pan and fry large spoonfuls of the batter for 1 minute until bubbles form on the surface, then flip and cook for a further 30 seconds. Repeat with the remaining batter then stack up and top with the yoghurt. Drizzle over the remaining honey and serve with the blueberries." }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "BBQ Beans with Fried Eggs",
+      "category": "General Meal",
+      "rating": 4.5,
+      "ratingCount": 85,
+      "servings": 1,
+      "ingredients": [
+        { "item": "olive oil", "amount": 1, "unit": "tsp" },
+        { "item": "gammon steak, trimmed of fat, diced", "amount": 75, "unit": "g" },
+        { "item": "tinned baked beans", "amount": 190, "unit": "g" },
+        { "item": "chipotle paste", "amount": 0.5, "unit": "tsp" },
+        { "item": "dijon mustard", "amount": 1, "unit": "tsp" },
+        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" },
+        { "item": "medium eggs", "amount": 2, "unit": "whole" },
+        { "item": "parsley, chopped", "amount": 1, "unit": "small_bunch" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Heat a small amount of the oil in a deep frying pan, add the diced gammon and fry for 2-3 minutes until golden. Add the baked beans, chipotle paste and mustard and cook gently for 5 minutes, stirring regularly. Season to taste with salt and pepper." },
+        { "step": 2, "instruction": "Meanwhile heat the remaining oil in a small frying pan, crack in the eggs and fry until the whites are set and the yolks are still runny, or until cooked to your liking." },
+        { "step": 3, "instruction": "Spoon the beans into a bowl, top with the fried eggs and scatter over the parsley to serve." }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Breakfast Parfait",
+      "category": "General Meal",
+      "rating": 4.8,
+      "ratingCount": 68,
+      "cookTime": "15 min",
+      "cookingMethod": "Good on the go",
+      "servings": 4,
+      "ingredients": [
+        { "item": "frozen mixed berries", "amount": 50, "unit": "g" },
+        { "item": "honey", "amount": 5, "unit": "g" },
+        { "item": "chia seeds", "amount": 10, "unit": "g" },
+        { "item": "protein powder, vanilla or unflavoured", "amount": 15, "unit": "g" },
+        { "item": "yoghurt, such as greek, natural, soya", "amount": 75, "unit": "g" },
+        { "item": "peanut butter", "amount": 10, "unit": "g" },
+        { "item": "nutty granola", "amount": 25, "unit": "g" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Place the berries in a small saucepan and cook over a medium heat until they start to defrost and release their juices. Stir through the honey and chia seeds and set to one side." },
+        { "step": 2, "instruction": "Stir the protein powder into the yoghurt until well combined then layer up the yoghurt, berry mix and peanut butter in a jar or glass. Top with the granola to serve." }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Chicken Jalfrezi with Poppadoms",
+      "category": "General Meal",
+      "rating": 4.6,
+      "ratingCount": 131,
+      "servings": 4,
+      "ingredients": [
+        { "item": "coconut oil", "amount": 4, "unit": "tsp" },
+        { "item": "skinless chicken breast, cut into bite-sized pieces", "amount": 460, "unit": "g" },
+        { "item": "small onion, peeled and finely sliced", "amount": 4, "unit": "whole" },
+        { "item": "green pepper, deseeded and cut into chunks", "amount": 2, "unit": "whole" },
+        { "item": "red pepper, deseeded and cut into chunks", "amount": 2, "unit": "whole" },
+        { "item": "tomato, diced", "amount": 4, "unit": "whole" },
+        { "item": "clove garlic, peeled and crushed", "amount": 4, "unit": "whole" },
+        { "item": "mild or hot chilli powder", "amount": 2, "unit": "tsp" },
+        { "item": "ground cumin", "amount": 2, "unit": "tsp" },
+        { "item": "garam masala", "amount": 2, "unit": "tsp" },
+        { "item": "turmeric", "amount": 2, "unit": "tsp" },
+        { "item": "tomato puree", "amount": 8, "unit": "tsp" },
+        { "item": "almond butter", "amount": 40, "unit": "g" },
+        { "item": "yoghurt, such as greek, natural, soya", "amount": 80, "unit": "g" },
+        { "item": "poppadoms", "amount": 8, "unit": "whole" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Heat the coconut oil in a deep frying pan over a high heat, add the chicken and fry for 5 minutes until browned. Remove from the pan with a slotted spoon and set aside." },
+        { "step": 2, "instruction": "Tip the onion, peppers, tomato and garlic into the pan and fry for 7-8 minutes until softened. Add the spices, fry for a minute then stir in the tomato puree and almond butter. Add a splash of water, return the chicken to the pan and cook for 2-3 minutes until the sauce has thickened and the chicken is cooked through." },
+        { "step": 3, "instruction": "Remove from the heat, stir through the yoghurt and season with salt and pepper. Microwave the poppadoms as per packet instructions and serve with the jalfrezi." }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Chicken and Mushroom Soup",
+      "category": "General Meal",
+      "rating": 4.8,
+      "ratingCount": 114,
+      "servings": 3,
+      "note": "This recipe works best when making 3 servings at once.",
+      "ingredients": [
+        { "item": "butter", "amount": 15, "unit": "g" },
+        { "item": "skinless chicken thigh fillet, cut into large chunks", "amount": 265, "unit": "g" },
+        { "item": "button mushrooms", "amount": 150, "unit": "g" },
+        { "item": "semi-skimmed milk", "amount": 220, "unit": "ml" },
+        { "item": "chicken gravy granules", "amount": 20, "unit": "g" },
+        { "item": "creme fraiche", "amount": 45, "unit": "g" },
+        { "item": "wholegrain mustard", "amount": 2, "unit": "tsp" },
+        { "item": "baby spinach", "amount": 1, "unit": "handful" },
+        { "item": "tarragon, leaves chopped", "amount": 1, "unit": "small_bunch" },
+        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" },
+        { "item": "puff pastry sheets", "amount": 2, "unit": "whole" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Melt the butter in a large saucepan, add the chicken and cook until browned." },
+        { "step": 2, "instruction": "Add the mushrooms and cook gently until softened." },
+        { "step": 3, "instruction": "Add the milk, gravy granules, creme fraiche and mustard, then add the spinach and tarragon. Season to taste and simmer until cooked through." }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Creamy Chicken Pie",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 80,
+      "servings": 4,
+      "ingredients": [
+        { "item": "ready-rolled light puff pastry, cut into a circle", "amount": 140, "unit": "g" },
+        { "item": "unsalted butter", "amount": 40, "unit": "g" },
+        { "item": "onion, peeled and diced", "amount": 2, "unit": "whole" },
+        { "item": "carrot, peeled and diced", "amount": 2, "unit": "whole" },
+        { "item": "stick celery, diced", "amount": 2, "unit": "whole" },
+        { "item": "fresh thyme leaves", "amount": 4, "unit": "small_bunch" },
+        { "item": "skinless chicken breast, cut into small chunks", "amount": 300, "unit": "g" },
+        { "item": "plain flour", "amount": 40, "unit": "g" },
+        { "item": "whole milk", "amount": 180, "unit": "ml" },
+        { "item": "wholegrain mustard", "amount": 8, "unit": "tsp" },
+        { "item": "vegetable stock", "amount": 300, "unit": "ml" },
+        { "item": "peas", "amount": 120, "unit": "g" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Preheat the oven to 200C. Melt the butter in a large saucepan, add the onion, carrot, celery and thyme and cook gently for 8-10 minutes until softened." },
+        { "step": 2, "instruction": "Increase the heat, add the chicken and fry for 4-5 minutes until lightly golden. Sprinkle over the flour and stir for a minute to coat everything." },
+        { "step": 3, "instruction": "Gradually pour in the milk and stock, stirring continuously to avoid lumps. Stir in the mustard and bring to a gentle simmer for 8-10 minutes until thickened and the chicken is cooked through." },
+        { "step": 4, "instruction": "Stir through the peas, season with salt and pepper, then tip the filling into a pie dish." },
+        { "step": 5, "instruction": "Lay the puff pastry over the top, trim the edges, brush with a little milk and cut a small slit in the centre to let steam escape. Bake for 20-25 minutes until the pastry is golden and puffed." }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Salmon Pappardelle with Asparagus",
+      "category": "General Meal",
+      "rating": 4.5,
+      "servings": 4,
+      "note": "Seasonal, spices and oils are increased proportionally to your servings. Add these ingredients gradually – as needed or to taste, and use your judgement to avoid adding too much.",
+      "ingredients": [
+        { "item": "skinless salmon fillet", "amount": 240, "unit": "g" },
+        { "item": "dried pappardelle or tagliatelle", "amount": 160, "unit": "g" },
+        { "item": "asparagus, sliced", "amount": 300, "unit": "g" },
+        { "item": "olive oil", "amount": 6, "unit": "tsp" },
+        { "item": "clove garlic, peeled and crushed", "amount": 4, "unit": "whole" },
+        { "item": "low-fat creme fraiche", "amount": 8, "unit": "tbsp" },
+        { "item": "lemon, juice", "amount": 2, "unit": "whole" },
+        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Cook the pasta according to package instructions." },
+        { "step": 2, "instruction": "Heat the oil and saute the salmon and asparagus with garlic until cooked through." },
+        { "step": 3, "instruction": "Combine with creme fraiche and lemon juice, season to taste." }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Ginger Chicken Udon",
+      "category": "General Meal",
+      "rating": 4.6,
+      "ratingCount": 15,
+      "cookTime": "30 min",
+      "cookingMethod": "Family friendly",
+      "servings": 4,
+      "ingredients": [
+        { "item": "medium egg noodles", "amount": 160, "unit": "g" },
+        { "item": "sesame oil", "amount": 2, "unit": "tsp" },
+        { "item": "vegetable oil", "amount": 4, "unit": "tsp" },
+        { "item": "smoked tofu, drained and diced", "amount": 300, "unit": "g" },
+        { "item": "vegetarian kimchi", "amount": 300, "unit": "g" },
+        { "item": "peanut butter", "amount": 120, "unit": "g" },
+        { "item": "spring onions, sliced", "amount": 160, "unit": "g" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Cook the noodles according to package instructions and drain." },
+        { "step": 2, "instruction": "Heat the oils in a wok or large pan and stir-fry the tofu and kimchi." },
+        { "step": 3, "instruction": "Add the peanut butter and noodles, toss well and top with spring onions." }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Greek Salad with Halloumi",
+      "category": "General Meal",
+      "rating": 4.5,
+      "ratingCount": 43,
+      "servings": 1,
+      "note": "This method is based on making 1 serving. Use your own judgement and make adjustments where necessary.",
+      "ingredients": [
+        { "item": "red pepper", "amount": 1, "unit": "whole" },
+        { "item": "halloumi", "amount": 1, "unit": "whole" },
+        { "item": "chilli", "amount": 1, "unit": "whole" },
+        { "item": "olive oil", "amount": 2, "unit": "tbsp" },
+        { "item": "mayonnaise", "amount": 1, "unit": "tbsp" },
+        { "item": "lettuce", "amount": 1, "unit": "serving" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Set a griddle pan over a high heat, brush the pepper with half of the oil, season with salt and pepper then cook for a couple of minutes on each side until soft. Remove from the pan and set aside." },
+        { "step": 2, "instruction": "Put the halloumi, mint and chilli in a bowl with the remaining oil, toss to coat then griddle for a minute on each side until golden and lightly charred." },
+        { "step": 3, "instruction": "Spread the inside of the bun with the mayonnaise then layer up with the pepper, halloumi and lettuce to serve." }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Simple One Pan Chicken Curry",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 116,
+      "servings": 4,
+      "ingredients": [
+        { "item": "vegetable oil", "amount": 2, "unit": "tsp" },
+        { "item": "sesame oil", "amount": 2, "unit": "tsp" },
+        { "item": "clove garlic, peeled and crushed", "amount": 4, "unit": "whole" },
+        { "item": "ginger, peeled and grated", "amount": 60, "unit": "g" },
+        { "item": "cooked long grain or jasmine rice, cooled", "amount": 300, "unit": "g" },
+        { "item": "large egg, beaten", "amount": 4, "unit": "whole" },
+        { "item": "thick-cut ham, chopped", "amount": 180, "unit": "g" },
+        { "item": "cooked skinless chicken breast, chopped", "amount": 220, "unit": "g" },
+        { "item": "frozen peas", "amount": 180, "unit": "g" },
+        { "item": "spring onions, sliced", "amount": 12, "unit": "whole" },
+        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Heat the oil in a wok or large frying pan, add the garlic and ginger and stir-fry briefly." },
+        { "step": 2, "instruction": "Add the rice and break up any clumps, stir-frying until heated through." },
+        { "step": 3, "instruction": "Push the rice to the side, add the beaten egg and scramble, then mix through the rice along with the ham, chicken and peas." },
+        { "step": 4, "instruction": "Top with spring onions and season to taste with salt and pepper." }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Summer Chunky Couscous Salad with Chicken",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 46,
+      "servings": 4,
+      "ingredients": [
+        { "item": "couscous", "amount": 150, "unit": "g" },
+        { "item": "vegetable stock", "amount": 200, "unit": "ml" },
+        { "item": "cooked skinless chicken breast", "amount": 300, "unit": "g" },
+        { "item": "cherry tomatoes", "amount": 200, "unit": "g" },
+        { "item": "cucumber", "amount": 1, "unit": "whole" },
+        { "item": "red onion", "amount": 1, "unit": "whole" },
+        { "item": "fresh mint", "amount": 1, "unit": "bunch" },
+        { "item": "lemon, juice", "amount": 1, "unit": "whole" },
+        { "item": "olive oil", "amount": 2, "unit": "tbsp" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Pour the hot stock over the couscous and let it absorb for 5 minutes." },
+        { "step": 2, "instruction": "Mix in the cooked chicken, tomatoes, cucumber, red onion and mint." },
+        { "step": 3, "instruction": "Dress with lemon juice and olive oil, season to taste." }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "BBQ Chicken Pizza",
+      "category": "Refuel Meal",
+      "rating": 4.7,
+      "ratingCount": 147,
+      "cookTime": "35 min",
+      "cookingMethod": "Family friendly",
+      "servings": 4,
+      "ingredients": [
+        { "item": "pizza base or dough", "amount": 1, "unit": "whole" },
+        { "item": "bbq sauce", "amount": 100, "unit": "ml" },
+        { "item": "cooked chicken, shredded", "amount": 250, "unit": "g" },
+        { "item": "mozzarella cheese", "amount": 200, "unit": "g" },
+        { "item": "red onion, sliced", "amount": 1, "unit": "whole" },
+        { "item": "cheddar cheese", "amount": 50, "unit": "g" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Preheat oven to 200C." },
+        { "step": 2, "instruction": "Spread BBQ sauce over the pizza base." },
+        { "step": 3, "instruction": "Layer with chicken, mozzarella, red onion and cheddar." },
+        { "step": 4, "instruction": "Bake for 20-25 minutes until golden." }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Chicken Mayo Sandwich",
+      "category": "General Meal",
+      "rating": 4.6,
+      "ratingCount": 131,
+      "servings": 4,
+      "ingredients": [
+        { "item": "cooked skinless chicken breast, shredded", "amount": 360, "unit": "g" },
+        { "item": "yoghurt, such as greek, natural, soya", "amount": 100, "unit": "g" },
+        { "item": "cider vinegar", "amount": 1, "unit": "tsp" },
+        { "item": "honey", "amount": 20, "unit": "g" },
+        { "item": "poppy seeds", "amount": 1, "unit": "tsp" },
+        { "item": "stick celery, finely chopped", "amount": 2, "unit": "whole" },
+        { "item": "dried cranberries", "amount": 40, "unit": "g" },
+        { "item": "pecans, chopped", "amount": 60, "unit": "g" },
+        { "item": "mayonnaise", "amount": 20, "unit": "g" },
+        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" },
+        { "item": "rye sourdough bread, toasted", "amount": 8, "unit": "slices" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Mix the cooked chicken with yoghurt, cider vinegar, honey and poppy seeds." },
+        { "step": 2, "instruction": "Add the celery, cranberries, pecans and mayonnaise, season with salt and pepper." },
+        { "step": 3, "instruction": "Serve on toasted rye sourdough bread." }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Beef Lasagne",
+      "category": "General Meal",
+      "servings": 4,
+      "note": "This recipe works best when making 4 servings at once.",
+      "ingredients": [
+        { "item": "olive oil", "amount": 2, "unit": "tsp" },
+        { "item": "onion, peeled and finely chopped", "amount": 2, "unit": "whole" },
+        { "item": "carrot, peeled and grated", "amount": 2, "unit": "whole" },
+        { "item": "clove garlic, peeled and crushed", "amount": 1, "unit": "whole" },
+        { "item": "5% fat beef mince", "amount": 455, "unit": "g" },
+        { "item": "tomato puree", "amount": 45, "unit": "g" },
+        { "item": "tinned chopped tomatoes", "amount": 455, "unit": "g" },
+        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" },
+        { "item": "fresh lasagne sheets", "amount": 230, "unit": "g" },
+        { "item": "fine white breadcrumbs", "amount": 25, "unit": "g" },
+        { "item": "green salad, to serve", "amount": 1, "unit": "serving" },
+        { "item": "carrot, peeled and grated", "amount": 1, "unit": "whole" },
+        { "item": "lemon, juice", "amount": 1, "unit": "whole" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Preheat the oven to 180C. Heat the oil in a saucepan, add the onion and garlic and fry for 4-5 minutes until soft. Increase the heat, add the beef and fry until browned. Add the tomato puree and spices, fry for a minute then pour in the chopped tomatoes and a splash of water. Bring to a simmer then cook gently for 30 minutes." },
+        { "step": 2, "instruction": "Layer the beef sauce with the lasagne sheets in a baking dish." },
+        { "step": 3, "instruction": "Top with breadcrumbs and bake for 20 minutes until golden." }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Thai Coconut Chicken",
+      "category": "General Meal",
+      "servings": 4,
+      "ingredients": [
+        { "item": "coconut oil", "amount": 4, "unit": "tsp" },
+        { "item": "shallot, peeled and sliced", "amount": 4, "unit": "whole" },
+        { "item": "lemongrass, peeled and finely chopped", "amount": 4, "unit": "stick" },
+        { "item": "red chilli, sliced", "amount": 4, "unit": "whole" },
+        { "item": "button mushrooms, halved", "amount": 460, "unit": "g" },
+        { "item": "chicken stock cube", "amount": 2, "unit": "whole" },
+        { "item": "tinned coconut milk", "amount": 300, "unit": "ml" },
+        { "item": "cooked skinless chicken breast, cut into bite-sized pieces", "amount": 460, "unit": "g" },
+        { "item": "lime, juice", "amount": 2, "unit": "whole" },
+        { "item": "coriander, chopped", "amount": 4, "unit": "small_bunch" }
+      ],
+      "method": [
+        { "step": 1, "instruction": "Heat the coconut oil in a wok or large pan." },
+        { "step": 2, "instruction": "Saute the shallots, lemongrass, chilli and mushrooms until softened." },
+        { "step": 3, "instruction": "Add the stock cube and coconut milk, simmer gently." },
+        { "step": 4, "instruction": "Add the cooked chicken and warm through, finish with lime juice and fresh coriander." }
+      ]
+    }
+  ]
+}

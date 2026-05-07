@@ -1,0 +1,62 @@
+<div class="dialog-overlay" (click)="onCancel()"></div>
+
+<div class="dialog-content">
+  <h2 class="dialog-title">Add to your week</h2>
+
+  <div class="form-section">
+    <label class="form-label">Recipe</label>
+    <div class="recipe-grid">
+      @for (recipe of recipes(); track recipe.id) {
+        <button
+          type="button"
+          class="recipe-option"
+          [class.recipe-option--selected]="selectedRecipeId() === recipe.id"
+          (click)="onSelectRecipe(recipe)"
+        >
+          <span class="recipe-option__name">{{ recipe.name }}</span>
+          <span class="recipe-option__category">{{ recipe.category }}</span>
+        </button>
+      }
+    </div>
+  </div>
+
+  @if (selectedRecipeId() != null) {
+    <div class="form-row">
+      <div class="form-field">
+        <label class="form-label">Day</label>
+        <select [value]="selectedDay()" (change)="selectedDay.set($any($event.target).value)">
+          @for (day of days; track day) {
+            <option [value]="day">{{ dayLabels[day] }}</option>
+          }
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label class="form-label">Meal</label>
+        <select [value]="selectedMealType()" (change)="selectedMealType.set($any($event.target).value)">
+          @for (type of mealTypes; track type) {
+            <option [value]="type">{{ mealLabels[type] }}</option>
+          }
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label class="form-label">Servings</label>
+        <input
+          type="number"
+          [value]="servings()"
+          (change)="onServingsInput($event)"
+          min="1"
+          max="50"
+        />
+      </div>
+    </div>
+  }
+
+  <div class="dialog-actions">
+    <button type="button" class="btn-ghost" (click)="onCancel()">Cancel</button>
+    <button type="button" class="btn-primary" (click)="onAdd()" [disabled]="selectedRecipeId() == null">
+      Add to Plan
+    </button>
+  </div>
+</div>

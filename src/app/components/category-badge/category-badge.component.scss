@@ -1,0 +1,28 @@
+:host {
+  display: inline-block;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.625rem;
+  font-size: var(--text-xs);
+  font-weight: 500;
+  border-radius: 9999px;
+  text-transform: uppercase;
+  letter-spacing: 0.025em;
+}
+
+.badge--snack {
+  background: rgba(212, 163, 115, 0.15);
+  color: #b3855a;
+}
+
+.badge--general {
+  background: rgba(74, 124, 89, 0.12);
+  color: #3a6347;
+}
+
+.badge--refuel {
+  background: rgba(232, 106, 51, 0.12);
+  color: #c4552a;
+}

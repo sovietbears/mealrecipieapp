@@ -1,0 +1,5 @@
+@if (recipe(); as r) {
+  <app-recipe-detail [recipe]="r" (close)="onClose()" (addToPlan)="onAddToPlan()" />
+} @else {
+  <div class="not-found">Recipe not found</div>
+}

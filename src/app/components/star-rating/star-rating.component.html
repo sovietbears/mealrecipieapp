@@ -1,0 +1,26 @@
+<div class="stars">
+  @for (_ of fullStars; track $index) {
+    <svg viewBox="0 0 24 24" class="star star--full">
+      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+    </svg>
+  }
+  @if (hasHalfStar) {
+    <svg viewBox="0 0 24 24" class="star star--half">
+      <defs>
+        <linearGradient id="halfgrad">
+          <stop offset="50%" stop-color="var(--color-star)" />
+          <stop offset="50%" stop-color="var(--color-border)" />
+        </linearGradient>
+      </defs>
+      <path fill="url(#halfgrad)" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+    </svg>
+  }
+  @for (_ of emptyStars; track $index) {
+    <svg viewBox="0 0 24 24" class="star star--empty">
+      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+    </svg>
+  }
+  @if (count() > 0) {
+    <span class="count">({{ count() }})</span>
+  }
+</div>

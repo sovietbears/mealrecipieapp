@@ -1,0 +1,24 @@
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 0.125rem;
+}
+
+.star {
+  width: 14px;
+  height: 14px;
+}
+
+.star--full path {
+  fill: var(--color-star);
+}
+
+.star--empty path {
+  fill: var(--color-border);
+}
+
+.count {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  margin-left: 0.25rem;
+}

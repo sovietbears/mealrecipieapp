@@ -1,0 +1,14 @@
+<ul class="ingredient-list">
+  @for (ingredient of scaledIngredients(); track $index) {
+    <li class="ingredient-item">
+      <label class="ingredient-label">
+        <input type="checkbox" class="ingredient-check" />
+        <span class="ingredient-amount">{{ ingredient.display }}</span>
+        @if (ingredient.unit !== 'to_taste' && ingredient.unit !== 'to taste') {
+          <span class="ingredient-unit">{{ ingredient.unit }}</span>
+        }
+        <span class="ingredient-name">{{ ingredient.item }}</span>
+      </label>
+    </li>
+  }
+</ul>

@@ -1,0 +1,8 @@
+<ol class="method-list">
+  @for (step of steps(); track step.step) {
+    <li class="method-step">
+      <span class="step-number">{{ step.step }}</span>
+      <p class="step-instruction">{{ step.instruction }}</p>
+    </li>
+  }
+</ol>

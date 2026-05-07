@@ -1,0 +1,49 @@
+<header class="app-header">
+  <div class="header-inner">
+    <div class="logo" (click)="navigate('/recipes')">
+      <span class="logo-icon">🍽️</span>
+      <span class="logo-text">MealPlanner</span>
+    </div>
+
+    <nav class="tabs" role="tablist">
+      <button
+        type="button"
+        role="tab"
+        [attr.aria-selected]="isActive('recipes')"
+        class="tab"
+        [class.tab--active]="isActive('recipes')"
+        (click)="navigate('/recipes')"
+      >
+        Recipes
+      </button>
+
+      <button
+        type="button"
+        role="tab"
+        [attr.aria-selected]="isActive('plan')"
+        class="tab"
+        [class.tab--active]="isActive('plan')"
+        (click)="navigate('/plan')"
+      >
+        Plan
+        @if (mealPlanService.totalMeals() > 0) {
+          <span class="badge">{{ mealPlanService.totalMeals() }}</span>
+        }
+      </button>
+
+      <button
+        type="button"
+        role="tab"
+        [attr.aria-selected]="isActive('list')"
+        class="tab"
+        [class.tab--active]="isActive('list')"
+        (click)="navigate('/list')"
+      >
+        List
+        @if (mealPlanService.totalMeals() > 0) {
+          <span class="badge">{{ mealPlanService.totalMeals() }}</span>
+        }
+      </button>
+    </nav>
+  </div>
+</header>

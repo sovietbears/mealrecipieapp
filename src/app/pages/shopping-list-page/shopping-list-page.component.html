@@ -1,0 +1,25 @@
+<div class="shopping-list-page">
+  <div class="page-header">
+    <div class="header-left">
+      <h1 class="page-title">Your Shopping List</h1>
+      <p class="page-subtitle">Everything you need for the week</p>
+    </div>
+    @if (hasItems()) {
+      <div class="export-buttons">
+        <button type="button" class="btn-ghost btn-small" (click)="onExportCSV()">📥 Download CSV</button>
+        <button type="button" class="btn-ghost btn-small" (click)="onExportJSON()">📥 Download JSON</button>
+      </div>
+    }
+  </div>
+
+  @if (!hasItems()) {
+    <app-empty-state message="Add meals to generate your shopping list 🛒" icon="🛒" />
+  } @else {
+    <div class="table-container">
+      <app-shopping-list-table [items]="shoppingList()" />
+    </div>
+    <div class="generated-at">
+      Generated: {{ generatedDate }}
+    </div>
+  }
+</div>
