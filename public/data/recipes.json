@@ -11,16 +11,42 @@
       "servings": 12,
       "note": "This recipe works best when making 12 servings at once.",
       "ingredients": [
-        { "item": "unsalted butter", "amount": 90, "unit": "g" },
-        { "item": "light brown sugar", "amount": 55, "unit": "g" },
-        { "item": "honey", "amount": 25, "unit": "g" },
-        { "item": "rolled oats", "amount": 190, "unit": "g" }
+        {
+          "item": "unsalted butter",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "item": "light brown sugar",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "item": "honey",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "item": "rolled oats",
+          "amount": 190,
+          "unit": "g"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Preheat the oven to 180C and line a 20cm x 20cm baking tray with parchment." },
-        { "step": 2, "instruction": "Place the butter, sugar and honey into a saucepan. Heat over a low heat and stir until the butter has melted and the ingredients have mixed together. Add the oats and combine well." },
-        { "step": 3, "instruction": "Spoon the mix into the lined tin and press down. Bake for 15-20 minutes, or until golden around the edges. Remove from the oven and leave to cool in the tin. Slice up and enjoy!" }
-      ]
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 180C and line a 20cm x 20cm baking tray with parchment."
+        },
+        {
+          "step": 2,
+          "instruction": "Place the butter, sugar and honey into a saucepan. Heat over a low heat and stir until the butter has melted and the ingredients have mixed together. Add the oats and combine well."
+        },
+        {
+          "step": 3,
+          "instruction": "Spoon the mix into the lined tin and press down. Bake for 15-20 minutes, or until golden around the edges. Remove from the oven and leave to cool in the tin. Slice up and enjoy!"
+        }
+      ],
+      "image": "/images/simple-flapjack.jpg"
     },
     {
       "id": 2,
@@ -32,21 +58,68 @@
       "cookingMethod": "Family friendly",
       "servings": 1,
       "ingredients": [
-        { "item": "ground almonds", "amount": 20, "unit": "g" },
-        { "item": "rolled oats", "amount": 15, "unit": "g" },
-        { "item": "baking powder", "amount": 0.5, "unit": "tsp" },
-        { "item": "large egg", "amount": 1, "unit": "whole" },
-        { "item": "almond milk, unsweetened", "amount": 35, "unit": "ml" },
-        { "item": "honey", "amount": 3, "unit": "tsp" },
-        { "item": "salt", "amount": 1, "unit": "pinch" },
-        { "item": "coconut oil", "amount": 0.5, "unit": "tsp" },
-        { "item": "yoghurt, such as greek, natural, soya", "amount": 1, "unit": "tbsp" },
-        { "item": "blueberries", "amount": 55, "unit": "g" }
+        {
+          "item": "ground almonds",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "item": "rolled oats",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "item": "baking powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "item": "large egg",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "almond milk, unsweetened",
+          "amount": 35,
+          "unit": "ml"
+        },
+        {
+          "item": "honey",
+          "amount": 3,
+          "unit": "tsp"
+        },
+        {
+          "item": "salt",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "item": "coconut oil",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "item": "yoghurt, such as greek, natural, soya",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "item": "blueberries",
+          "amount": 55,
+          "unit": "g"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Combine the ground almonds, rolled oats, baking powder, egg, almond milk, half of the honey and a pinch of salt in a liquidiser and blend until smooth." },
-        { "step": 2, "instruction": "Melt the coconut oil in a non-stick frying pan and fry large spoonfuls of the batter for 1 minute until bubbles form on the surface, then flip and cook for a further 30 seconds. Repeat with the remaining batter then stack up and top with the yoghurt. Drizzle over the remaining honey and serve with the blueberries." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Combine the ground almonds, rolled oats, baking powder, egg, almond milk, half of the honey and a pinch of salt in a liquidiser and blend until smooth."
+        },
+        {
+          "step": 2,
+          "instruction": "Melt the coconut oil in a non-stick frying pan and fry large spoonfuls of the batter for 1 minute until bubbles form on the surface, then flip and cook for a further 30 seconds. Repeat with the remaining batter then stack up and top with the yoghurt. Drizzle over the remaining honey and serve with the blueberries."
+        }
+      ],
+      "image": "/images/almond-honey-pancakes.jpg"
     },
     {
       "id": 3,
@@ -56,20 +129,62 @@
       "ratingCount": 85,
       "servings": 1,
       "ingredients": [
-        { "item": "olive oil", "amount": 1, "unit": "tsp" },
-        { "item": "gammon steak, trimmed of fat, diced", "amount": 75, "unit": "g" },
-        { "item": "tinned baked beans", "amount": 190, "unit": "g" },
-        { "item": "chipotle paste", "amount": 0.5, "unit": "tsp" },
-        { "item": "dijon mustard", "amount": 1, "unit": "tsp" },
-        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" },
-        { "item": "medium eggs", "amount": 2, "unit": "whole" },
-        { "item": "parsley, chopped", "amount": 1, "unit": "small_bunch" }
+        {
+          "item": "olive oil",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "item": "gammon steak, trimmed of fat, diced",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "item": "tinned baked beans",
+          "amount": 190,
+          "unit": "g"
+        },
+        {
+          "item": "chipotle paste",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "item": "dijon mustard",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "medium eggs",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "parsley, chopped",
+          "amount": 1,
+          "unit": "small_bunch"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Heat a small amount of the oil in a deep frying pan, add the diced gammon and fry for 2-3 minutes until golden. Add the baked beans, chipotle paste and mustard and cook gently for 5 minutes, stirring regularly. Season to taste with salt and pepper." },
-        { "step": 2, "instruction": "Meanwhile heat the remaining oil in a small frying pan, crack in the eggs and fry until the whites are set and the yolks are still runny, or until cooked to your liking." },
-        { "step": 3, "instruction": "Spoon the beans into a bowl, top with the fried eggs and scatter over the parsley to serve." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Heat a small amount of the oil in a deep frying pan, add the diced gammon and fry for 2-3 minutes until golden. Add the baked beans, chipotle paste and mustard and cook gently for 5 minutes, stirring regularly. Season to taste with salt and pepper."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile heat the remaining oil in a small frying pan, crack in the eggs and fry until the whites are set and the yolks are still runny, or until cooked to your liking."
+        },
+        {
+          "step": 3,
+          "instruction": "Spoon the beans into a bowl, top with the fried eggs and scatter over the parsley to serve."
+        }
+      ],
+      "image": "/images/bbq-beans-fried-eggs.jpg"
     },
     {
       "id": 4,
@@ -81,18 +196,53 @@
       "cookingMethod": "Good on the go",
       "servings": 4,
       "ingredients": [
-        { "item": "frozen mixed berries", "amount": 50, "unit": "g" },
-        { "item": "honey", "amount": 5, "unit": "g" },
-        { "item": "chia seeds", "amount": 10, "unit": "g" },
-        { "item": "protein powder, vanilla or unflavoured", "amount": 15, "unit": "g" },
-        { "item": "yoghurt, such as greek, natural, soya", "amount": 75, "unit": "g" },
-        { "item": "peanut butter", "amount": 10, "unit": "g" },
-        { "item": "nutty granola", "amount": 25, "unit": "g" }
+        {
+          "item": "frozen mixed berries",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "item": "honey",
+          "amount": 5,
+          "unit": "g"
+        },
+        {
+          "item": "chia seeds",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "item": "protein powder, vanilla or unflavoured",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "item": "yoghurt, such as greek, natural, soya",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "item": "peanut butter",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "item": "nutty granola",
+          "amount": 25,
+          "unit": "g"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Place the berries in a small saucepan and cook over a medium heat until they start to defrost and release their juices. Stir through the honey and chia seeds and set to one side." },
-        { "step": 2, "instruction": "Stir the protein powder into the yoghurt until well combined then layer up the yoghurt, berry mix and peanut butter in a jar or glass. Top with the granola to serve." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Place the berries in a small saucepan and cook over a medium heat until they start to defrost and release their juices. Stir through the honey and chia seeds and set to one side."
+        },
+        {
+          "step": 2,
+          "instruction": "Stir the protein powder into the yoghurt until well combined then layer up the yoghurt, berry mix and peanut butter in a jar or glass. Top with the granola to serve."
+        }
+      ],
+      "image": "/images/breakfast-parfait.jpg"
     },
     {
       "id": 5,
@@ -102,27 +252,97 @@
       "ratingCount": 131,
       "servings": 4,
       "ingredients": [
-        { "item": "coconut oil", "amount": 4, "unit": "tsp" },
-        { "item": "skinless chicken breast, cut into bite-sized pieces", "amount": 460, "unit": "g" },
-        { "item": "small onion, peeled and finely sliced", "amount": 4, "unit": "whole" },
-        { "item": "green pepper, deseeded and cut into chunks", "amount": 2, "unit": "whole" },
-        { "item": "red pepper, deseeded and cut into chunks", "amount": 2, "unit": "whole" },
-        { "item": "tomato, diced", "amount": 4, "unit": "whole" },
-        { "item": "clove garlic, peeled and crushed", "amount": 4, "unit": "whole" },
-        { "item": "mild or hot chilli powder", "amount": 2, "unit": "tsp" },
-        { "item": "ground cumin", "amount": 2, "unit": "tsp" },
-        { "item": "garam masala", "amount": 2, "unit": "tsp" },
-        { "item": "turmeric", "amount": 2, "unit": "tsp" },
-        { "item": "tomato puree", "amount": 8, "unit": "tsp" },
-        { "item": "almond butter", "amount": 40, "unit": "g" },
-        { "item": "yoghurt, such as greek, natural, soya", "amount": 80, "unit": "g" },
-        { "item": "poppadoms", "amount": 8, "unit": "whole" }
+        {
+          "item": "coconut oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "skinless chicken breast, cut into bite-sized pieces",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "item": "small onion, peeled and finely sliced",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "green pepper, deseeded and cut into chunks",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "red pepper, deseeded and cut into chunks",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "tomato, diced",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "mild or hot chilli powder",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cumin",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "garam masala",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "turmeric",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "almond butter",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "item": "yoghurt, such as greek, natural, soya",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "poppadoms",
+          "amount": 8,
+          "unit": "whole"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Heat the coconut oil in a deep frying pan over a high heat, add the chicken and fry for 5 minutes until browned. Remove from the pan with a slotted spoon and set aside." },
-        { "step": 2, "instruction": "Tip the onion, peppers, tomato and garlic into the pan and fry for 7-8 minutes until softened. Add the spices, fry for a minute then stir in the tomato puree and almond butter. Add a splash of water, return the chicken to the pan and cook for 2-3 minutes until the sauce has thickened and the chicken is cooked through." },
-        { "step": 3, "instruction": "Remove from the heat, stir through the yoghurt and season with salt and pepper. Microwave the poppadoms as per packet instructions and serve with the jalfrezi." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Heat the coconut oil in a deep frying pan over a high heat, add the chicken and fry for 5 minutes until browned. Remove from the pan with a slotted spoon and set aside."
+        },
+        {
+          "step": 2,
+          "instruction": "Tip the onion, peppers, tomato and garlic into the pan and fry for 7-8 minutes until softened. Add the spices, fry for a minute then stir in the tomato puree and almond butter. Add a splash of water, return the chicken to the pan and cook for 2-3 minutes until the sauce has thickened and the chicken is cooked through."
+        },
+        {
+          "step": 3,
+          "instruction": "Remove from the heat, stir through the yoghurt and season with salt and pepper. Microwave the poppadoms as per packet instructions and serve with the jalfrezi."
+        }
+      ],
+      "image": "/images/chicken-jalfrezi.jpg"
     },
     {
       "id": 6,
@@ -133,23 +353,77 @@
       "servings": 3,
       "note": "This recipe works best when making 3 servings at once.",
       "ingredients": [
-        { "item": "butter", "amount": 15, "unit": "g" },
-        { "item": "skinless chicken thigh fillet, cut into large chunks", "amount": 265, "unit": "g" },
-        { "item": "button mushrooms", "amount": 150, "unit": "g" },
-        { "item": "semi-skimmed milk", "amount": 220, "unit": "ml" },
-        { "item": "chicken gravy granules", "amount": 20, "unit": "g" },
-        { "item": "creme fraiche", "amount": 45, "unit": "g" },
-        { "item": "wholegrain mustard", "amount": 2, "unit": "tsp" },
-        { "item": "baby spinach", "amount": 1, "unit": "handful" },
-        { "item": "tarragon, leaves chopped", "amount": 1, "unit": "small_bunch" },
-        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" },
-        { "item": "puff pastry sheets", "amount": 2, "unit": "whole" }
+        {
+          "item": "butter",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "item": "skinless chicken thigh fillet, cut into large chunks",
+          "amount": 265,
+          "unit": "g"
+        },
+        {
+          "item": "button mushrooms",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "item": "semi-skimmed milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "item": "chicken gravy granules",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "item": "creme fraiche",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "item": "wholegrain mustard",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "baby spinach",
+          "amount": 1,
+          "unit": "handful"
+        },
+        {
+          "item": "tarragon, leaves chopped",
+          "amount": 1,
+          "unit": "small_bunch"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "puff pastry sheets",
+          "amount": 2,
+          "unit": "whole"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Melt the butter in a large saucepan, add the chicken and cook until browned." },
-        { "step": 2, "instruction": "Add the mushrooms and cook gently until softened." },
-        { "step": 3, "instruction": "Add the milk, gravy granules, creme fraiche and mustard, then add the spinach and tarragon. Season to taste and simmer until cooked through." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Melt the butter in a large saucepan, add the chicken and cook until browned."
+        },
+        {
+          "step": 2,
+          "instruction": "Add the mushrooms and cook gently until softened."
+        },
+        {
+          "step": 3,
+          "instruction": "Add the milk, gravy granules, creme fraiche and mustard, then add the spinach and tarragon. Season to taste and simmer until cooked through."
+        }
+      ],
+      "image": "/images/chicken-mushroom-soup.jpg"
     },
     {
       "id": 7,
@@ -159,49 +433,156 @@
       "ratingCount": 80,
       "servings": 4,
       "ingredients": [
-        { "item": "ready-rolled light puff pastry, cut into a circle", "amount": 140, "unit": "g" },
-        { "item": "unsalted butter", "amount": 40, "unit": "g" },
-        { "item": "onion, peeled and diced", "amount": 2, "unit": "whole" },
-        { "item": "carrot, peeled and diced", "amount": 2, "unit": "whole" },
-        { "item": "stick celery, diced", "amount": 2, "unit": "whole" },
-        { "item": "fresh thyme leaves", "amount": 4, "unit": "small_bunch" },
-        { "item": "skinless chicken breast, cut into small chunks", "amount": 300, "unit": "g" },
-        { "item": "plain flour", "amount": 40, "unit": "g" },
-        { "item": "whole milk", "amount": 180, "unit": "ml" },
-        { "item": "wholegrain mustard", "amount": 8, "unit": "tsp" },
-        { "item": "vegetable stock", "amount": 300, "unit": "ml" },
-        { "item": "peas", "amount": 120, "unit": "g" }
+        {
+          "item": "ready-rolled light puff pastry, cut into a circle",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "item": "unsalted butter",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "item": "onion, peeled and diced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "carrot, peeled and diced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "stick celery, diced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "fresh thyme leaves",
+          "amount": 4,
+          "unit": "small_bunch"
+        },
+        {
+          "item": "skinless chicken breast, cut into small chunks",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "plain flour",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "item": "whole milk",
+          "amount": 180,
+          "unit": "ml"
+        },
+        {
+          "item": "wholegrain mustard",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "vegetable stock",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "item": "peas",
+          "amount": 120,
+          "unit": "g"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Preheat the oven to 200C. Melt the butter in a large saucepan, add the onion, carrot, celery and thyme and cook gently for 8-10 minutes until softened." },
-        { "step": 2, "instruction": "Increase the heat, add the chicken and fry for 4-5 minutes until lightly golden. Sprinkle over the flour and stir for a minute to coat everything." },
-        { "step": 3, "instruction": "Gradually pour in the milk and stock, stirring continuously to avoid lumps. Stir in the mustard and bring to a gentle simmer for 8-10 minutes until thickened and the chicken is cooked through." },
-        { "step": 4, "instruction": "Stir through the peas, season with salt and pepper, then tip the filling into a pie dish." },
-        { "step": 5, "instruction": "Lay the puff pastry over the top, trim the edges, brush with a little milk and cut a small slit in the centre to let steam escape. Bake for 20-25 minutes until the pastry is golden and puffed." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 200C. Melt the butter in a large saucepan, add the onion, carrot, celery and thyme and cook gently for 8-10 minutes until softened."
+        },
+        {
+          "step": 2,
+          "instruction": "Increase the heat, add the chicken and fry for 4-5 minutes until lightly golden. Sprinkle over the flour and stir for a minute to coat everything."
+        },
+        {
+          "step": 3,
+          "instruction": "Gradually pour in the milk and stock, stirring continuously to avoid lumps. Stir in the mustard and bring to a gentle simmer for 8-10 minutes until thickened and the chicken is cooked through."
+        },
+        {
+          "step": 4,
+          "instruction": "Stir through the peas, season with salt and pepper, then tip the filling into a pie dish."
+        },
+        {
+          "step": 5,
+          "instruction": "Lay the puff pastry over the top, trim the edges, brush with a little milk and cut a small slit in the centre to let steam escape. Bake for 20-25 minutes until the pastry is golden and puffed."
+        }
+      ],
+      "image": "/images/creamy-chicken-pie.jpg"
     },
     {
       "id": 8,
-      "name": "Salmon Pappardelle with Asparagus",
+      "name": "Creamy Salmon and Asparagus Pasta",
       "category": "General Meal",
-      "rating": 4.5,
+      "rating": 4.7,
       "servings": 4,
-      "note": "Seasonal, spices and oils are increased proportionally to your servings. Add these ingredients gradually – as needed or to taste, and use your judgement to avoid adding too much.",
+      "note": "Seasonal, spices and oils are increased proportionally to your servings. Add these ingredients gradually \u2013 as needed or to taste, and use your judgement to avoid adding too much.",
       "ingredients": [
-        { "item": "skinless salmon fillet", "amount": 240, "unit": "g" },
-        { "item": "dried pappardelle or tagliatelle", "amount": 160, "unit": "g" },
-        { "item": "asparagus, sliced", "amount": 300, "unit": "g" },
-        { "item": "olive oil", "amount": 6, "unit": "tsp" },
-        { "item": "clove garlic, peeled and crushed", "amount": 4, "unit": "whole" },
-        { "item": "low-fat creme fraiche", "amount": 8, "unit": "tbsp" },
-        { "item": "lemon, juice", "amount": 2, "unit": "whole" },
-        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" }
+        {
+          "item": "skinless salmon fillet",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "item": "dried pappardelle or tagliatelle",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "asparagus, sliced",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "olive oil",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "low-fat creme fraiche",
+          "amount": 8,
+          "unit": "tbsp"
+        },
+        {
+          "item": "lemon, juice",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Cook the pasta according to package instructions." },
-        { "step": 2, "instruction": "Heat the oil and saute the salmon and asparagus with garlic until cooked through." },
-        { "step": 3, "instruction": "Combine with creme fraiche and lemon juice, season to taste." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Preheat the grill to high. Lay the salmon on a baking tray lined with foil and place under the grill for 6-8 minutes until just cooked through. Set aside to cool slightly."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile bring a large pan of salted water to the boil. Add the pasta and cook according to the packet instructions, adding the asparagus for the final minute of cooking. Drain the pasta and asparagus, reserving a little of the cooking water."
+        },
+        {
+          "step": 3,
+          "instruction": "Put the empty pan back on the heat, add the oil and the garlic and gently cook for a minute. Remove from the heat, stir in the creme fraiche then tip in the pasta and asparagus. Add the lemon juice and a splash of the reserved cooking water then toss everything together with a pinch of salt and plenty of pepper. Flake the salmon into the pan and fold into the pasta. Transfer to a warmed bowl and serve."
+        }
+      ],
+      "image": "/images/creamy-salmon-asparagus-pasta.jpg",
+      "ratingCount": 138
     },
     {
       "id": 9,
@@ -213,19 +594,57 @@
       "cookingMethod": "Family friendly",
       "servings": 4,
       "ingredients": [
-        { "item": "medium egg noodles", "amount": 160, "unit": "g" },
-        { "item": "sesame oil", "amount": 2, "unit": "tsp" },
-        { "item": "vegetable oil", "amount": 4, "unit": "tsp" },
-        { "item": "smoked tofu, drained and diced", "amount": 300, "unit": "g" },
-        { "item": "vegetarian kimchi", "amount": 300, "unit": "g" },
-        { "item": "peanut butter", "amount": 120, "unit": "g" },
-        { "item": "spring onions, sliced", "amount": 160, "unit": "g" }
+        {
+          "item": "medium egg noodles",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "sesame oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "vegetable oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "smoked tofu, drained and diced",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "vegetarian kimchi",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "peanut butter",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "spring onions, sliced",
+          "amount": 160,
+          "unit": "g"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Cook the noodles according to package instructions and drain." },
-        { "step": 2, "instruction": "Heat the oils in a wok or large pan and stir-fry the tofu and kimchi." },
-        { "step": 3, "instruction": "Add the peanut butter and noodles, toss well and top with spring onions." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Cook the noodles according to package instructions and drain."
+        },
+        {
+          "step": 2,
+          "instruction": "Heat the oils in a wok or large pan and stir-fry the tofu and kimchi."
+        },
+        {
+          "step": 3,
+          "instruction": "Add the peanut butter and noodles, toss well and top with spring onions."
+        }
+      ],
+      "image": "/images/ginger-chicken-udon.jpg"
     },
     {
       "id": 10,
@@ -236,18 +655,52 @@
       "servings": 1,
       "note": "This method is based on making 1 serving. Use your own judgement and make adjustments where necessary.",
       "ingredients": [
-        { "item": "red pepper", "amount": 1, "unit": "whole" },
-        { "item": "halloumi", "amount": 1, "unit": "whole" },
-        { "item": "chilli", "amount": 1, "unit": "whole" },
-        { "item": "olive oil", "amount": 2, "unit": "tbsp" },
-        { "item": "mayonnaise", "amount": 1, "unit": "tbsp" },
-        { "item": "lettuce", "amount": 1, "unit": "serving" }
+        {
+          "item": "red pepper",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "halloumi",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "chilli",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "olive oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "item": "mayonnaise",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "item": "lettuce",
+          "amount": 1,
+          "unit": "serving"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Set a griddle pan over a high heat, brush the pepper with half of the oil, season with salt and pepper then cook for a couple of minutes on each side until soft. Remove from the pan and set aside." },
-        { "step": 2, "instruction": "Put the halloumi, mint and chilli in a bowl with the remaining oil, toss to coat then griddle for a minute on each side until golden and lightly charred." },
-        { "step": 3, "instruction": "Spread the inside of the bun with the mayonnaise then layer up with the pepper, halloumi and lettuce to serve." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Set a griddle pan over a high heat, brush the pepper with half of the oil, season with salt and pepper then cook for a couple of minutes on each side until soft. Remove from the pan and set aside."
+        },
+        {
+          "step": 2,
+          "instruction": "Put the halloumi, mint and chilli in a bowl with the remaining oil, toss to coat then griddle for a minute on each side until golden and lightly charred."
+        },
+        {
+          "step": 3,
+          "instruction": "Spread the inside of the bun with the mayonnaise then layer up with the pepper, halloumi and lettuce to serve."
+        }
+      ],
+      "image": "/images/greek-salad-halloumi.jpg"
     },
     {
       "id": 11,
@@ -257,24 +710,81 @@
       "ratingCount": 116,
       "servings": 4,
       "ingredients": [
-        { "item": "vegetable oil", "amount": 2, "unit": "tsp" },
-        { "item": "sesame oil", "amount": 2, "unit": "tsp" },
-        { "item": "clove garlic, peeled and crushed", "amount": 4, "unit": "whole" },
-        { "item": "ginger, peeled and grated", "amount": 60, "unit": "g" },
-        { "item": "cooked long grain or jasmine rice, cooled", "amount": 300, "unit": "g" },
-        { "item": "large egg, beaten", "amount": 4, "unit": "whole" },
-        { "item": "thick-cut ham, chopped", "amount": 180, "unit": "g" },
-        { "item": "cooked skinless chicken breast, chopped", "amount": 220, "unit": "g" },
-        { "item": "frozen peas", "amount": 180, "unit": "g" },
-        { "item": "spring onions, sliced", "amount": 12, "unit": "whole" },
-        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" }
+        {
+          "item": "vegetable oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "sesame oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "ginger, peeled and grated",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "cooked long grain or jasmine rice, cooled",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "large egg, beaten",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "thick-cut ham, chopped",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "cooked skinless chicken breast, chopped",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "item": "frozen peas",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "spring onions, sliced",
+          "amount": 12,
+          "unit": "whole"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Heat the oil in a wok or large frying pan, add the garlic and ginger and stir-fry briefly." },
-        { "step": 2, "instruction": "Add the rice and break up any clumps, stir-frying until heated through." },
-        { "step": 3, "instruction": "Push the rice to the side, add the beaten egg and scramble, then mix through the rice along with the ham, chicken and peas." },
-        { "step": 4, "instruction": "Top with spring onions and season to taste with salt and pepper." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Heat the oil in a wok or large frying pan, add the garlic and ginger and stir-fry briefly."
+        },
+        {
+          "step": 2,
+          "instruction": "Add the rice and break up any clumps, stir-frying until heated through."
+        },
+        {
+          "step": 3,
+          "instruction": "Push the rice to the side, add the beaten egg and scramble, then mix through the rice along with the ham, chicken and peas."
+        },
+        {
+          "step": 4,
+          "instruction": "Top with spring onions and season to taste with salt and pepper."
+        }
+      ],
+      "image": "/images/one-pan-chicken-curry.jpg"
     },
     {
       "id": 12,
@@ -284,21 +794,67 @@
       "ratingCount": 46,
       "servings": 4,
       "ingredients": [
-        { "item": "couscous", "amount": 150, "unit": "g" },
-        { "item": "vegetable stock", "amount": 200, "unit": "ml" },
-        { "item": "cooked skinless chicken breast", "amount": 300, "unit": "g" },
-        { "item": "cherry tomatoes", "amount": 200, "unit": "g" },
-        { "item": "cucumber", "amount": 1, "unit": "whole" },
-        { "item": "red onion", "amount": 1, "unit": "whole" },
-        { "item": "fresh mint", "amount": 1, "unit": "bunch" },
-        { "item": "lemon, juice", "amount": 1, "unit": "whole" },
-        { "item": "olive oil", "amount": 2, "unit": "tbsp" }
+        {
+          "item": "couscous",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "item": "vegetable stock",
+          "amount": 200,
+          "unit": "ml"
+        },
+        {
+          "item": "cooked skinless chicken breast",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "cherry tomatoes",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "cucumber",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "red onion",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "fresh mint",
+          "amount": 1,
+          "unit": "bunch"
+        },
+        {
+          "item": "lemon, juice",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "olive oil",
+          "amount": 2,
+          "unit": "tbsp"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Pour the hot stock over the couscous and let it absorb for 5 minutes." },
-        { "step": 2, "instruction": "Mix in the cooked chicken, tomatoes, cucumber, red onion and mint." },
-        { "step": 3, "instruction": "Dress with lemon juice and olive oil, season to taste." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Pour the hot stock over the couscous and let it absorb for 5 minutes."
+        },
+        {
+          "step": 2,
+          "instruction": "Mix in the cooked chicken, tomatoes, cucumber, red onion and mint."
+        },
+        {
+          "step": 3,
+          "instruction": "Dress with lemon juice and olive oil, season to taste."
+        }
+      ],
+      "image": "/images/couscous-salad-chicken.jpg"
     },
     {
       "id": 13,
@@ -310,19 +866,56 @@
       "cookingMethod": "Family friendly",
       "servings": 4,
       "ingredients": [
-        { "item": "pizza base or dough", "amount": 1, "unit": "whole" },
-        { "item": "bbq sauce", "amount": 100, "unit": "ml" },
-        { "item": "cooked chicken, shredded", "amount": 250, "unit": "g" },
-        { "item": "mozzarella cheese", "amount": 200, "unit": "g" },
-        { "item": "red onion, sliced", "amount": 1, "unit": "whole" },
-        { "item": "cheddar cheese", "amount": 50, "unit": "g" }
+        {
+          "item": "pizza base or dough",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "bbq sauce",
+          "amount": 100,
+          "unit": "ml"
+        },
+        {
+          "item": "cooked chicken, shredded",
+          "amount": 250,
+          "unit": "g"
+        },
+        {
+          "item": "mozzarella cheese",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "red onion, sliced",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "cheddar cheese",
+          "amount": 50,
+          "unit": "g"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Preheat oven to 200C." },
-        { "step": 2, "instruction": "Spread BBQ sauce over the pizza base." },
-        { "step": 3, "instruction": "Layer with chicken, mozzarella, red onion and cheddar." },
-        { "step": 4, "instruction": "Bake for 20-25 minutes until golden." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Preheat oven to 200C."
+        },
+        {
+          "step": 2,
+          "instruction": "Spread BBQ sauce over the pizza base."
+        },
+        {
+          "step": 3,
+          "instruction": "Layer with chicken, mozzarella, red onion and cheddar."
+        },
+        {
+          "step": 4,
+          "instruction": "Bake for 20-25 minutes until golden."
+        }
+      ],
+      "image": "/images/bbq-chicken-pizza.jpg"
     },
     {
       "id": 14,
@@ -332,23 +925,77 @@
       "ratingCount": 131,
       "servings": 4,
       "ingredients": [
-        { "item": "cooked skinless chicken breast, shredded", "amount": 360, "unit": "g" },
-        { "item": "yoghurt, such as greek, natural, soya", "amount": 100, "unit": "g" },
-        { "item": "cider vinegar", "amount": 1, "unit": "tsp" },
-        { "item": "honey", "amount": 20, "unit": "g" },
-        { "item": "poppy seeds", "amount": 1, "unit": "tsp" },
-        { "item": "stick celery, finely chopped", "amount": 2, "unit": "whole" },
-        { "item": "dried cranberries", "amount": 40, "unit": "g" },
-        { "item": "pecans, chopped", "amount": 60, "unit": "g" },
-        { "item": "mayonnaise", "amount": 20, "unit": "g" },
-        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" },
-        { "item": "rye sourdough bread, toasted", "amount": 8, "unit": "slices" }
+        {
+          "item": "cooked skinless chicken breast, shredded",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "item": "yoghurt, such as greek, natural, soya",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "item": "cider vinegar",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "item": "honey",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "item": "poppy seeds",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "item": "stick celery, finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "dried cranberries",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "item": "pecans, chopped",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "mayonnaise",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "rye sourdough bread, toasted",
+          "amount": 8,
+          "unit": "slices"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Mix the cooked chicken with yoghurt, cider vinegar, honey and poppy seeds." },
-        { "step": 2, "instruction": "Add the celery, cranberries, pecans and mayonnaise, season with salt and pepper." },
-        { "step": 3, "instruction": "Serve on toasted rye sourdough bread." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Mix the cooked chicken with yoghurt, cider vinegar, honey and poppy seeds."
+        },
+        {
+          "step": 2,
+          "instruction": "Add the celery, cranberries, pecans and mayonnaise, season with salt and pepper."
+        },
+        {
+          "step": 3,
+          "instruction": "Serve on toasted rye sourdough bread."
+        }
+      ],
+      "image": "/images/chicken-mayo-sandwich.jpg"
     },
     {
       "id": 15,
@@ -357,48 +1004,3415 @@
       "servings": 4,
       "note": "This recipe works best when making 4 servings at once.",
       "ingredients": [
-        { "item": "olive oil", "amount": 2, "unit": "tsp" },
-        { "item": "onion, peeled and finely chopped", "amount": 2, "unit": "whole" },
-        { "item": "carrot, peeled and grated", "amount": 2, "unit": "whole" },
-        { "item": "clove garlic, peeled and crushed", "amount": 1, "unit": "whole" },
-        { "item": "5% fat beef mince", "amount": 455, "unit": "g" },
-        { "item": "tomato puree", "amount": 45, "unit": "g" },
-        { "item": "tinned chopped tomatoes", "amount": 455, "unit": "g" },
-        { "item": "salt and pepper", "amount": 1, "unit": "to_taste" },
-        { "item": "fresh lasagne sheets", "amount": 230, "unit": "g" },
-        { "item": "fine white breadcrumbs", "amount": 25, "unit": "g" },
-        { "item": "green salad, to serve", "amount": 1, "unit": "serving" },
-        { "item": "carrot, peeled and grated", "amount": 1, "unit": "whole" },
-        { "item": "lemon, juice", "amount": 1, "unit": "whole" }
+        {
+          "item": "olive oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "onion, peeled and finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "carrot, peeled and grated",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "5% fat beef mince",
+          "amount": 455,
+          "unit": "g"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 455,
+          "unit": "g"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "fresh lasagne sheets",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "item": "fine white breadcrumbs",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "item": "green salad, to serve",
+          "amount": 1,
+          "unit": "serving"
+        },
+        {
+          "item": "carrot, peeled and grated",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "lemon, juice",
+          "amount": 1,
+          "unit": "whole"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Preheat the oven to 180C. Heat the oil in a saucepan, add the onion and garlic and fry for 4-5 minutes until soft. Increase the heat, add the beef and fry until browned. Add the tomato puree and spices, fry for a minute then pour in the chopped tomatoes and a splash of water. Bring to a simmer then cook gently for 30 minutes." },
-        { "step": 2, "instruction": "Layer the beef sauce with the lasagne sheets in a baking dish." },
-        { "step": 3, "instruction": "Top with breadcrumbs and bake for 20 minutes until golden." }
-      ]
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 180C. Heat the oil in a saucepan, add the onion and garlic and fry for 4-5 minutes until soft. Increase the heat, add the beef and fry until browned. Add the tomato puree and spices, fry for a minute then pour in the chopped tomatoes and a splash of water. Bring to a simmer then cook gently for 30 minutes."
+        },
+        {
+          "step": 2,
+          "instruction": "Layer the beef sauce with the lasagne sheets in a baking dish."
+        },
+        {
+          "step": 3,
+          "instruction": "Top with breadcrumbs and bake for 20 minutes until golden."
+        }
+      ],
+      "image": "/images/beef-lasagne.jpg"
     },
     {
       "id": 16,
-      "name": "Thai Coconut Chicken",
+      "name": "Chicken and Chorizo Jambalaya",
       "category": "General Meal",
       "servings": 4,
       "ingredients": [
-        { "item": "coconut oil", "amount": 4, "unit": "tsp" },
-        { "item": "shallot, peeled and sliced", "amount": 4, "unit": "whole" },
-        { "item": "lemongrass, peeled and finely chopped", "amount": 4, "unit": "stick" },
-        { "item": "red chilli, sliced", "amount": 4, "unit": "whole" },
-        { "item": "button mushrooms, halved", "amount": 460, "unit": "g" },
-        { "item": "chicken stock cube", "amount": 2, "unit": "whole" },
-        { "item": "tinned coconut milk", "amount": 300, "unit": "ml" },
-        { "item": "cooked skinless chicken breast, cut into bite-sized pieces", "amount": 460, "unit": "g" },
-        { "item": "lime, juice", "amount": 2, "unit": "whole" },
-        { "item": "coriander, chopped", "amount": 4, "unit": "small_bunch" }
+        {
+          "item": "chorizo, chopped",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "skinless chicken breast, cut into chunks",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "item": "red pepper, deseeded and sliced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "cajun seasoning",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "dried thyme",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "long grain or jasmine rice",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "item": "chicken stock",
+          "amount": 360,
+          "unit": "ml"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "parsley, finely chopped",
+          "amount": 4,
+          "unit": "small_bunch"
+        }
       ],
       "method": [
-        { "step": 1, "instruction": "Heat the coconut oil in a wok or large pan." },
-        { "step": 2, "instruction": "Saute the shallots, lemongrass, chilli and mushrooms until softened." },
-        { "step": 3, "instruction": "Add the stock cube and coconut milk, simmer gently." },
-        { "step": 4, "instruction": "Add the cooked chicken and warm through, finish with lime juice and fresh coriander." }
+        {
+          "step": 1,
+          "instruction": "Heat a saucepan over a medium heat, add the chorizo and fry gently until crisp. Turn up the heat, add the chicken chunks and fry until golden. Remove the chorizo and chicken with a slotted spoon and set aside."
+        },
+        {
+          "step": 2,
+          "instruction": "Add the pepper and garlic to the pan, fry for a couple of minutes until soft then stir in the cajun seasoning and thyme. Add the rice, return the chicken and chorizo to the pan, then pour in the chopped tomatoes and stock. Bring to a simmer, cover with a lid then cook gently for 20 mins until the rice is tender. Season to taste, stir in the parsley and serve."
+        }
+      ],
+      "image": "/images/chicken-chorizo-jambalaya.jpg",
+      "rating": 4.9,
+      "ratingCount": 288
+    },
+    {
+      "id": 17,
+      "name": "Chicken and Mushroom Pie",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 159,
+      "servings": 3,
+      "note": "This recipe works best when making 3 servings at once.",
+      "image": "/images/chicken-mushroom-pie.jpg",
+      "ingredients": [
+        {
+          "item": "butter",
+          "amount": 15,
+          "unit": "g"
+        },
+        {
+          "item": "skinless chicken thigh fillet, cut into large chunks",
+          "amount": 265,
+          "unit": "g"
+        },
+        {
+          "item": "button mushrooms",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "item": "semi-skimmed milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "item": "chicken gravy granules",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "item": "creme fraiche",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "item": "wholegrain mustard",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "baby spinach",
+          "amount": 1,
+          "unit": "handful"
+        },
+        {
+          "item": "tarragon, leaves chopped",
+          "amount": 1,
+          "unit": "small_bunch"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "filo pastry sheets",
+          "amount": 2,
+          "unit": "whole"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 200C. Melt the butter in a large saucepan, add the chicken and fry in batches for 4-5 minutes until golden. Transfer to a plate with a slotted spoon. Add the mushrooms to the pan and fry for 3-4 minutes until golden. Remove the mushrooms from the pan and transfer to the plate with the chicken."
+        },
+        {
+          "step": 2,
+          "instruction": "Pour the milk into the saucepan, bring to a simmer then whisk in the gravy granules. Cook for a minute until the sauce starts to thicken then return the chicken and mushrooms to the pan. Remove from the heat, stir in the creme fraiche, mustard, spinach and tarragon and season to taste with salt and pepper. Spoon the chicken mixture into a pie dish."
+        },
+        {
+          "step": 3,
+          "instruction": "Brush the filo sheets with the melted butter then roughly scrunch up the pastry and lay over the filling, tucking the edges in. Bake for 20-25 minutes until the pastry is crisp and golden. Remove from the oven and leave to cool for a few minutes before serving."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Chickpea Ratatouille with Golden Feta",
+      "category": "General Meal",
+      "rating": 4.6,
+      "ratingCount": 36,
+      "cookTime": "30 min",
+      "cookingMethod": "Batch cooking",
+      "servings": 4,
+      "image": "/images/chickpea-ratatouille.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "courgette, thickly sliced",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "red pepper, deseeded and sliced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "red onion, peeled and cut into wedges",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "tinned chickpeas, drained",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "red wine vinegar",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "basil, leaves torn",
+          "amount": 4,
+          "unit": "small_bunch"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "feta",
+          "amount": 340,
+          "unit": "g"
+        },
+        {
+          "item": "pumpkin seeds",
+          "amount": 20,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the oil in a deep frying pan, add the courgette, pepper and onion and fry over a high heat for 4-5 minutes until caramelised. Add the garlic and tomato puree, fry for a minute then add the chopped tomatoes, chickpeas and vinegar. Reduce the heat slightly and cook gently for 5 minutes until thickened. Stir through the basil leaves and season to taste."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile pat the feta dry with kitchen paper and cut into two equal pieces. Heat a dry frying pan over a medium to high heat, add the feta and cook for 3-4 minutes until the underside is crisp and golden. Carefully turn the cheese and cook for a further 3-4 minutes."
+        },
+        {
+          "step": 3,
+          "instruction": "Spoon the vegetables into a bowl and top with the crispy, golden feta and a sprinkling of pumpkin seeds."
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Chilli Beef Nachos",
+      "category": "General Meal",
+      "rating": 4.9,
+      "ratingCount": 151,
+      "cookTime": "50 min",
+      "cookingMethod": "Good to freeze",
+      "servings": 4,
+      "image": "/images/chilli-beef-nachos.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "onion, peeled and finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "5% fat beef mince",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cumin",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "chilli powder or paprika",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "corn tortilla",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "cheddar cheese, grated",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "red chilli, sliced",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "low-fat soured cream",
+          "amount": 80,
+          "unit": "ml"
+        },
+        {
+          "item": "coriander, finely chopped",
+          "amount": 4,
+          "unit": "small_bunch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 180C. Heat the oil in a saucepan, add the onion and garlic and fry for 4-5 minutes until soft. Increase the heat, add the beef and fry until browned. Add the tomato puree and spices, fry for a minute then pour in the chopped tomatoes and a splash of water. Bring to a simmer then cook gently for 30 minutes."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile cut the tortillas into triangles, arrange on a baking tray in a single layer then bake for 10 minutes or until crisp."
+        },
+        {
+          "step": 3,
+          "instruction": "Layer the tortilla crisps with the beef chilli in a serving bowl then top with the cheese, chilli, soured cream and coriander."
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Chilli Con Carne",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 68,
+      "cookTime": "25 min",
+      "cookingMethod": "Good to freeze",
+      "servings": 4,
+      "image": "/images/chilli-con-carne.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "small onion, peeled and finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "5% fat beef mince",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cumin",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "chilli powder or paprika",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "item": "cayenne pepper",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "tinned kidney beans, drained",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "cooked white rice",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "soured cream",
+          "amount": 80,
+          "unit": "ml"
+        },
+        {
+          "item": "cheddar cheese, grated",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "item": "coriander, leaves torn",
+          "amount": 4,
+          "unit": "small_bunch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the oil in a saucepan over a medium heat. Add the onion and garlic and fry for a few minutes until soft. Increase the heat, add the beef mince and fry until browned all over. Add the tomato puree, cumin, chilli powder and cayenne and fry for another minute."
+        },
+        {
+          "step": 2,
+          "instruction": "Pour in the chopped tomatoes and kidney beans along with a splash of water. Bring to a simmer then cook gently for 15-20 minutes until thickened. Season to taste."
+        },
+        {
+          "step": 3,
+          "instruction": "Spoon the chilli over the rice and top with soured cream, grated cheese and torn coriander leaves."
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Creamy Chicken Curry with Coconut Rice",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 80,
+      "servings": 4,
+      "image": "/images/creamy-chicken-curry-coconut-rice.jpg",
+      "ingredients": [
+        {
+          "item": "coconut oil",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "skinless chicken thigh fillet, cut into chunks",
+          "amount": 360,
+          "unit": "g"
+        },
+        {
+          "item": "onion, peeled and finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "ginger, peeled and grated",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "tomato, diced",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "madras curry powder",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "chicken stock",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "item": "peas",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "yoghurt, such as greek, natural, soya",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "reduced-fat tinned coconut milk",
+          "amount": 280,
+          "unit": "ml"
+        },
+        {
+          "item": "basmati or jasmine rice",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "water",
+          "amount": 160,
+          "unit": "ml"
+        },
+        {
+          "item": "coriander, finely chopped",
+          "amount": 4,
+          "unit": "small_bunch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the oil in a deep frying pan and fry the chicken in batches until golden, transferring to a plate as you go. Fry the onion, garlic and ginger for 5 minutes until soft. Add the tomato and curry powder, fry for a minute then return the chicken to the pan and add the chicken stock. Bring to a simmer then cook for 10 minutes until the chicken is tender. Add the peas, cook for a further 5 minutes then remove from the heat and stir through the yoghurt."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile pour the coconut milk, rice and water into a saucepan, bring to the boil then immediately turn the heat down to its lowest setting. Cover with a lid and cook for 10 minutes, adding an extra splash of water if needed, then remove from the heat and leave to stand for 5 minutes. Fluff the rice up with a fork and serve with the chicken curry and a scattering of coriander."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Creamy Tomato Pasta",
+      "category": "General Meal",
+      "rating": 4.4,
+      "ratingCount": 46,
+      "servings": 4,
+      "image": "/images/creamy-tomato-pasta.jpg",
+      "ingredients": [
+        {
+          "item": "unsalted roasted cashew nuts, crushed",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "dried lentil pasta",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "basil, leaves torn",
+          "amount": 4,
+          "unit": "small_bunch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Tip the cashew nuts into a small bowl and pour over just enough boiling water to cover. Cover with clingfilm and leave to soak for 15 minutes. Pour the nuts and the soaking liquid into a food processor and blend until smooth."
+        },
+        {
+          "step": 2,
+          "instruction": "Whilst the nuts are soaking, heat the oil in a saucepan, add the garlic and fry for a minute. Stir in the tomato puree and tomatoes then simmer gently for 10 minutes until thickened. Stir in the cashew cream and cook for a further 2-3 minutes, then remove the pan from the heat and season to taste."
+        },
+        {
+          "step": 3,
+          "instruction": "Meanwhile cook the pasta according to the packet instructions, drain then stir into the sauce. Toss through the basil leaves to serve."
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Lamb Shish Kebabs with Tzatziki",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 15,
+      "servings": 4,
+      "image": "/images/lamb-shish-kebabs.jpg",
+      "ingredients": [
+        {
+          "item": "lamb leg steak, diced",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "red wine vinegar",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "dried oregano",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "smoked paprika",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cumin",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "small wholewheat pitta bread or tortilla wrap (40g)",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "tomato, sliced",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "small red onion, peeled and finely sliced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "feta, crumbled",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "yoghurt, such as greek, natural, soya",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "item": "cucumber, grated",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "mint, chopped",
+          "amount": 4,
+          "unit": "small_bunch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Put the lamb into a bowl then add the garlic, vinegar, oil, oregano, paprika, cumin and a pinch of salt and pepper. Toss to combine then cover and set aside to marinate; it needs at least 10 minutes."
+        },
+        {
+          "step": 2,
+          "instruction": "Heat a griddle pan over a high heat and thread the lamb onto skewers. Grill for 3-4 minutes on each side then set aside to rest. Whilst the lamb rests, stir together the ingredients for the tzatziki and warm the pitta bread on the griddle pan or in your toaster."
+        },
+        {
+          "step": 3,
+          "instruction": "To serve, split the warm pitta open and pile on the tzatziki, lamb, tomato, onion and feta."
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Simple Pesto Salmon",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 53,
+      "servings": 4,
+      "image": "/images/simple-pesto-salmon.jpg",
+      "ingredients": [
+        {
+          "item": "salmon fillet",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "basil pesto",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "parmesan or hard cheese, finely grated",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "item": "tenderstem broccoli, cut into thin sticks",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "frozen peas",
+          "amount": 160,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the grill to a medium high heat. Place the salmon on a lined baking tray. Spread the pesto over the top and sprinkle over the parmesan. Place under the grill and cook for 10-12 minutes, or until the parmesan is golden and the salmon is cooked through."
+        },
+        {
+          "step": 2,
+          "instruction": "While the fish is cooking, boil the broccoli for around 4 minutes and add the peas for the last few minutes. Serve everything together and tuck in."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Simple Sausage Stew",
+      "category": "General Meal",
+      "rating": 4.3,
+      "ratingCount": 80,
+      "servings": 4,
+      "image": "/images/simple-sausage-stew.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "onion, peeled and thinly sliced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "reduced-fat pork sausages, sliced",
+          "amount": 8,
+          "unit": "whole"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "item": "tinned butter beans, drained",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "smoked paprika",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "vegetable stock",
+          "amount": 300,
+          "unit": "ml"
+        },
+        {
+          "item": "wholegrain mustard",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the oil in a saucepan over a medium to high heat. Add the onion and fry for a few minutes and then add in the sausage and cook until crispy and cooked through."
+        },
+        {
+          "step": 2,
+          "instruction": "Add the tomatoes, butter beans, paprika, stock, mustard and stir everything together. Leave to simmer for 5 minutes, or until the stew has thickened a little. Season to taste and serve up!"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Bolognese Pasta Bake",
+      "category": "Refuel Meal",
+      "rating": 4.3,
+      "ratingCount": 40,
+      "servings": 4,
+      "image": "/images/bolognese-pasta-bake.jpg",
+      "ingredients": [
+        {
+          "item": "dried pasta such as rigatoni, penne or fusilli",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "olive oil",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "5% fat beef mince",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "item": "dried oregano",
+          "amount": 4,
+          "unit": "pinch"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "cornflour",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "item": "quark",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "parmesan or hard cheese, finely grated",
+          "amount": 40,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 180C. Cook the pasta in a large pan of salted boiling water for a minute or so under the time stated on the packet. Drain, reserving a cupful of pasta water, and set to one side."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile heat the oil in a large, non-stick frying pan over a medium to high heat and fry the garlic for a minute or so before adding in the beef. Cook the beef until browned all over then stir through the tomato puree and cook for a few more minutes."
+        },
+        {
+          "step": 3,
+          "instruction": "Add the chopped tomatoes and dried oregano to the pan, season with salt and pepper then bring to a simmer. Cook for around 5 minutes until the sauce is slightly richer in colour but not too dry; if you find the sauce is a little dry you can add a small splash of the pasta water. Remove the sauce from the heat."
+        },
+        {
+          "step": 4,
+          "instruction": "Whisk the cornflour with the quark and a splash of pasta water then stir through the bolognese sauce along with the cooked pasta. Tip everything into an oven-proof dish, scatter over the parmesan and bake for 15-20 minutes until the cheese is golden. Serve with a green salad."
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "No-Bake Energy Bars",
+      "category": "Snack",
+      "rating": 4.8,
+      "ratingCount": 42,
+      "cookTime": "2 hrs 10 min",
+      "cookingMethod": "Good on the go",
+      "servings": 12,
+      "note": "This recipe works best when making 12 servings at once.",
+      "image": "/images/no-bake-energy-bars.jpg",
+      "ingredients": [
+        {
+          "item": "maple syrup",
+          "amount": 115,
+          "unit": "g"
+        },
+        {
+          "item": "coconut oil",
+          "amount": 50,
+          "unit": "g"
+        },
+        {
+          "item": "salt",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "item": "rolled oats",
+          "amount": 135,
+          "unit": "g"
+        },
+        {
+          "item": "raisins",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "item": "pumpkin seeds",
+          "amount": 20,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Pour the maple syrup into a saucepan, add the coconut oil and salt then bring to the boil. Reduce the heat slightly and simmer for 3 minutes. Stir in the oats, raisins and pumpkin seeds."
+        },
+        {
+          "step": 2,
+          "instruction": "Tip the mixture into a 20cm square cake tin lined with greaseproof paper and press down with the back of a spoon. Chill for 2 hours until firm before cutting into equal-sized bars."
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Chicken and Goats' Cheese Gnocchi",
+      "category": "General Meal",
+      "rating": 4.5,
+      "ratingCount": 26,
+      "servings": 4,
+      "image": "/images/chicken-goats-cheese-gnocchi.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "cooked skinless chicken breast, sliced",
+          "amount": 240,
+          "unit": "g"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "smoked paprika",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "item": "gnocchi",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "chargrilled artichokes, drained and sliced",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "soft goats' cheese",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "rocket",
+          "amount": 4,
+          "unit": "handful"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the oil in a large frying pan over a medium to high heat. Fry the chicken with the garlic and paprika for a few minutes until cooked through and starting to crisp up. Add the gnocchi and a splash of water, and cook for 4 minutes or until the gnocchi is just tender. Season to taste."
+        },
+        {
+          "step": 2,
+          "instruction": "Stir through the artichoke and leave to heat through for a few minutes then spoon into a serving bowl. Crumble over the goats' cheese and serve with the rocket."
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Halloumi Burger with Chilli and Mint",
+      "category": "General Meal",
+      "rating": 4.8,
+      "ratingCount": 277,
+      "servings": 4,
+      "image": "/images/halloumi-burger.jpg",
+      "ingredients": [
+        {
+          "item": "red pepper, deseeded and quartered",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "halloumi, sliced",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "item": "mint, chopped",
+          "amount": 4,
+          "unit": "small_bunch"
+        },
+        {
+          "item": "red chilli, finely chopped",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "burger bun, split and toasted",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "light mayonnaise",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "baby gem lettuce leaves",
+          "amount": 8,
+          "unit": "whole"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Set a griddle pan over a high heat, brush the pepper with half of the oil, season with salt and pepper then cook for a couple of minutes on each side until soft. Remove from the pan and set aside."
+        },
+        {
+          "step": 2,
+          "instruction": "Put the halloumi, mint and chilli in a bowl with the remaining oil, toss to coat then griddle for a minute on each side until golden and lightly charred."
+        },
+        {
+          "step": 3,
+          "instruction": "Spread the inside of the bun with the mayonnaise then layer up with the pepper, halloumi and lettuce to serve."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Lamb Kofta with Houmous",
+      "category": "General Meal",
+      "rating": 4.5,
+      "ratingCount": 8,
+      "servings": 4,
+      "image": "/images/lamb-kofta-houmous.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "red onion, peeled and finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 8,
+          "unit": "whole"
+        },
+        {
+          "item": "ground cumin",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "smoked paprika, plus extra to serve",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cinnamon",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "lamb mince",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "tinned chickpeas, drained",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "tahini",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "item": "lemon, juice",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "coriander, chopped",
+          "amount": 4,
+          "unit": "small_bunch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat half of the oil in a frying pan, add half of the onion and half of the garlic and fry gently for 3-4 minutes. Add the spices, fry for a minute then tip into a bowl and leave to cool. Add the lamb mince, season with salt and pepper then mix to combine. Roll into bite-sized meatballs then chill in the fridge for 20 minutes."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile tip the chickpeas into a bowl with a splash of water and heat in the microwave for a couple of minutes. Tip into a food processor with the remaining garlic, the tahini, lemon juice and a pinch of salt and blend until smooth; add a little extra water or lemon juice if needed."
+        },
+        {
+          "step": 3,
+          "instruction": "Heat the remaining oil in a frying pan, add the meatballs and fry over a medium heat for 10 minutes until golden brown and cooked through. Spread the houmous on a plate, top with the meatballs then scatter over the remaining onion, smoked paprika and the coriander."
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Kimchi and Peanut Butter Noodles",
+      "category": "General Meal",
+      "rating": 4.6,
+      "ratingCount": 81,
+      "servings": 4,
+      "image": "/images/kimchi-peanut-noodles.jpg",
+      "ingredients": [
+        {
+          "item": "medium egg noodles",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "sesame oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "vegetable oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "smoked tofu, drained and diced",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "vegetarian kimchi",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "peanut butter",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "spring onions, sliced",
+          "amount": 160,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Bring a pan of water to the boil, add the noodles and cook according to the packet instructions. Drain, rinse under cold water until cold then set aside."
+        },
+        {
+          "step": 2,
+          "instruction": "Heat the oils in a wok, add the tofu and fry for 2-3 minutes. Add the kimchi, fry for a couple of minutes then add the peanut butter and stir until melted. Add enough hot water to loosen the sauce then add the cooked noodles and spring onions and toss everything together. Transfer to a bowl and serve."
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Lean Muscle Mince",
+      "category": "General Meal",
+      "rating": 4.4,
+      "ratingCount": 52,
+      "cookTime": "30 min",
+      "cookingMethod": "Batch cooking",
+      "servings": 4,
+      "image": "/images/lean-muscle-mince.jpg",
+      "ingredients": [
+        {
+          "item": "coconut oil",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "5% fat beef mince",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "item": "red onion, peeled and diced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "mushrooms, sliced",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "mixed dried herbs",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "smoked paprika",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "item": "barbecue sauce",
+          "amount": 8,
+          "unit": "tbsp"
+        },
+        {
+          "item": "stock cube",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "avocado, peeled, pitted and sliced",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "steamed greens, to serve",
+          "amount": 1,
+          "unit": "to_taste"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat half of the coconut oil in a large saucepan over a high heat. Add half the mince and fry for 2-3 minutes, stirring to break up the chunks, and cook until nicely browned. Tip out onto a plate, then repeat with the rest of the mince."
+        },
+        {
+          "step": 2,
+          "instruction": "When the meat has all been browned, wipe out your pan and heat the remaining oil over a medium to high heat. Add the onion, mushroom and garlic and stir regularly for about 5 minutes or until the vegetables have started to soften and colour a little. Throw the meat back into the pan and add the mixed herbs, paprika, tomato puree, barbecue sauce, stock cube and enough water to make a nice sauce. Bring to a simmer and cook for 5-6 minutes or until the sauce has thickened."
+        },
+        {
+          "step": 3,
+          "instruction": "When the mince is ready serve with the avocado and a portion of your favourite green vegetables steamed, blanched or boiled."
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Low Carb Fish Pie",
+      "category": "General Meal",
+      "rating": 4.4,
+      "ratingCount": 48,
+      "cookTime": "50 min",
+      "cookingMethod": "Longer recipe",
+      "servings": 4,
+      "image": "/images/low-carb-fish-pie.jpg",
+      "ingredients": [
+        {
+          "item": "cauliflower florets, sliced",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "item": "skimmed milk",
+          "amount": 820,
+          "unit": "ml"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "butter",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "spring onions, sliced",
+          "amount": 12,
+          "unit": "whole"
+        },
+        {
+          "item": "plain flour",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "item": "fish pie mix, or a mix of diced salmon, cod and smoked haddock",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "item": "peas",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "cheddar cheese, grated",
+          "amount": 40,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 200C. Tip the cauliflower into a small saucepan and pour over half of the milk. Bring to a simmer then cook gently for 10 minutes until the cauliflower soft and most of the milk has been absorbed. Pour into a food processor, blend until smooth then season with salt and pepper."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile melt the butter in a saucepan then add the spring onions and fry until soft. Stir in the flour, cook for a couple of minutes then gradually stir in the remaining milk until you have a smooth white sauce. Remove the pan from the heat, stir in the fish and peas then pour into an ovenproof dish."
+        },
+        {
+          "step": 3,
+          "instruction": "Spoon the cauliflower mash over the fish mixture then scatter the cheese over the top. Bake in the oven for 15-20 minutes until the sauce is bubbling round the edges and the fish is cooked through. If you prefer a crunchy topping, finish off under a hot grill for a couple of minutes. Leave to cool slightly before serving."
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Mexican Black Bean Bowl",
+      "category": "General Meal",
+      "rating": 4.8,
+      "ratingCount": 12,
+      "servings": 4,
+      "image": "/images/mexican-black-bean-bowl.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "tinned black beans, drained",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "honey",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "item": "chipotle paste",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "kale, stems removed and leaves torn",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "cauliflower rice",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "salt",
+          "amount": 4,
+          "unit": "pinch"
+        },
+        {
+          "item": "coriander, finely chopped",
+          "amount": 4,
+          "unit": "small_bunch"
+        },
+        {
+          "item": "small eggs",
+          "amount": 8,
+          "unit": "whole"
+        },
+        {
+          "item": "quark",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "cherry tomatoes, chopped",
+          "amount": 480,
+          "unit": "g"
+        },
+        {
+          "item": "jalapeno or green chilli, finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "lime, juice",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "spring onion, chopped",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "avocado, peeled, pitted and roughly chopped",
+          "amount": 140,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the oil in a large, non-stick frying pan and fry the garlic for a minute or so before adding the black beans, honey and chipotle paste. Fry for a few minutes then add in the kale and a splash of water. Pop a lid on the pan and cook for a few more minutes to allow the kale to steam."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile, heat the cauliflower rice in a small saucepan with a splash of water and a pinch of salt, then stir through the coriander."
+        },
+        {
+          "step": 3,
+          "instruction": "Remove the lid from the frying pan, move everything to one side then crack in the eggs and fry until cooked to your liking."
+        },
+        {
+          "step": 4,
+          "instruction": "Mix the salsa ingredients together in a small bowl. Spoon the cauliflower rice into a bowl and top with the black beans, fried eggs and salsa then finish with a dollop of quark."
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Pork Souvlaki",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 30,
+      "cookTime": "55 min",
+      "servings": 4,
+      "image": "/images/pork-souvlaki.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "red wine vinegar",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "dried oregano",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cumin",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "pork tenderloin, cut into bite-sized pieces",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "item": "green pepper, deseeded and cut into chunks",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "cherry tomatoes",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "feta, crumbled",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "fat-free yoghurt, greek or natural",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "cucumber, thinly sliced",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "mint, leaves chopped, plus extra for garnish",
+          "amount": 4,
+          "unit": "small_bunch"
+        },
+        {
+          "item": "green salad, to serve",
+          "amount": 1,
+          "unit": "to_taste"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Combine the oil, vinegar, garlic, oregano and cumin in a bowl. Add the pork, peppers and tomatoes and toss to coat. Cover and chill for at least 30 minutes, although a couple of hours will really help the flavours to develop."
+        },
+        {
+          "step": 2,
+          "instruction": "Preheat the grill to its highest setting and line a baking tray with foil. Thread the pork, peppers and tomatoes onto skewers, lay on the tray and grill for 5-6 minutes on each side until lightly charred and cooked through. Meanwhile combine the feta, yoghurt, cucumber and mint in a bowl."
+        },
+        {
+          "step": 3,
+          "instruction": "Serve the kebabs with the feta yoghurt, fresh mint and a simple green salad."
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Shredded Chicken Nachos",
+      "category": "General Meal",
+      "rating": 4.8,
+      "ratingCount": 100,
+      "servings": 4,
+      "image": "/images/shredded-chicken-nachos.jpg",
+      "ingredients": [
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "chipotle paste",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cumin",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "chilli powder or paprika",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "cooked skinless chicken breast",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "item": "corn tortillas",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "cheddar cheese, grated",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "sliced jalapenos, drained",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "low-fat soured cream",
+          "amount": 80,
+          "unit": "ml"
+        },
+        {
+          "item": "coriander, chopped",
+          "amount": 4,
+          "unit": "small_bunch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 180C. Warm the tomatoes, chipotle paste, cumin and chilli powder in a saucepan with a splash of water, season with salt and pepper. Tear the chicken into shreds, add to the pan and stir to coat."
+        },
+        {
+          "step": 2,
+          "instruction": "Cut the tortillas into triangles and arrange on a baking tray in a single layer. Bake for 10 minutes or until crisp."
+        },
+        {
+          "step": 3,
+          "instruction": "Pile the tortilla chips onto a plate and top with the shredded chicken, cheese, jalapenos and soured cream. Scatter over the coriander to serve."
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Simple Chocolate and Hazelnut Granola",
+      "category": "General Meal",
+      "rating": 4.8,
+      "ratingCount": 78,
+      "servings": 7,
+      "note": "This recipe works best when making 7 servings at once.",
+      "image": "/images/chocolate-hazelnut-granola.jpg",
+      "ingredients": [
+        {
+          "item": "rolled oats",
+          "amount": 75,
+          "unit": "g"
+        },
+        {
+          "item": "mixed seeds",
+          "amount": 140,
+          "unit": "g"
+        },
+        {
+          "item": "blanched hazelnuts, roughly chopped",
+          "amount": 105,
+          "unit": "g"
+        },
+        {
+          "item": "apple sauce",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "coconut oil, melted",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "item": "salt",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "item": "70% dark chocolate, chopped into chunks",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "item": "fat-free yoghurt, greek or natural",
+          "amount": 360,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 160C. Combine the rolled oats, mixed seeds and hazelnuts in a large bowl. Stir together the apple sauce, coconut oil and salt in a separate bowl then pour over the dry ingredients and toss to coat."
+        },
+        {
+          "step": 2,
+          "instruction": "Tip everything into a large roasting tray then pat down the ingredients to form an even layer. Bake for 20 minutes, stirring occasionally, until golden and crisp. Remove from the oven, leave to cool then stir in the chocolate. Serve each portion of granola with a portion of the yoghurt."
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Special Fried Rice",
+      "category": "General Meal",
+      "rating": 4.8,
+      "ratingCount": 151,
+      "cookTime": "10 min",
+      "servings": 4,
+      "image": "/images/special-fried-rice.jpg",
+      "ingredients": [
+        {
+          "item": "vegetable oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "sesame oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "ginger, peeled and grated",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "cooked long grain or jasmine rice, cooled",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "large egg, beaten",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "thick-cut ham, chopped",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "cooked skinless chicken breast, chopped",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "item": "frozen peas",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "spring onions, sliced",
+          "amount": 12,
+          "unit": "whole"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the oils in a wok over a high heat. Add the garlic and ginger, stir-fry for 30 seconds, then push to one side of the wok."
+        },
+        {
+          "step": 2,
+          "instruction": "Add the rice to the wok and stir-fry for 2 minutes until heated through. Pour the beaten eggs onto the empty side of the wok and let them set briefly, then stir into the rice."
+        },
+        {
+          "step": 3,
+          "instruction": "Add the ham, chicken, peas and spring onions. Stir-fry for 2-3 minutes until everything is heated through. Season to taste and serve immediately."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Spicy Peanut Noodles",
+      "category": "General Meal",
+      "rating": 4.6,
+      "ratingCount": 40,
+      "servings": 4,
+      "image": "/images/spicy-peanut-noodles.jpg",
+      "ingredients": [
+        {
+          "item": "udon noodles",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "vegetable oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "tofu or chicken, sliced",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "tenderstem broccoli",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "item": "peanut butter",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "item": "soy sauce",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "item": "lime, juice",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "chilli flakes",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "spring onions, sliced",
+          "amount": 8,
+          "unit": "whole"
+        },
+        {
+          "item": "peanuts, chopped",
+          "amount": 40,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Cook the noodles according to packet instructions, drain and set aside."
+        },
+        {
+          "step": 2,
+          "instruction": "Heat the oil in a wok over high heat. Stir-fry the protein for 3-4 minutes until cooked. Add the broccoli and stir-fry for another 2 minutes."
+        },
+        {
+          "step": 3,
+          "instruction": "Whisk together the peanut butter, soy sauce, lime juice and chilli flakes with a splash of water to loosen. Add to the wok with the noodles and toss to coat."
+        },
+        {
+          "step": 4,
+          "instruction": "Top with spring onions and peanuts to serve."
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Tomato, Pesto and Mozzarella Panini",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 69,
+      "servings": 4,
+      "image": "/images/tomato-pesto-panini.jpg",
+      "ingredients": [
+        {
+          "item": "small panini or sub roll, sliced lengthways",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "basil pesto",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "mozzarella, torn",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "item": "parmesan or hard cheese, finely grated",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "item": "tomatoes, sliced",
+          "amount": 240,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Spread the cut sides of the panini with the pesto. Top each half with the mozzarella, parmesan and tomatoes then press down firmly to seal."
+        },
+        {
+          "step": 2,
+          "instruction": "Heat a non-stick frying pan over a medium heat and lay the panini in the pan. Place a second pan on top of the panini to press it down then cook for 3 minutes on each side or until the cheese is completely melted. Leave to cool for a minute before serving."
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Tuna Melt Toast",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 103,
+      "cookTime": "10 min",
+      "cookingMethod": "Family friendly",
+      "servings": 4,
+      "image": "/images/tuna-melt-toast.jpg",
+      "ingredients": [
+        {
+          "item": "tinned tuna in water or brine, drained",
+          "amount": 280,
+          "unit": "g"
+        },
+        {
+          "item": "mayonnaise",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "spring onions, finely chopped",
+          "amount": 8,
+          "unit": "whole"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "slice bread, toasted",
+          "amount": 4,
+          "unit": "slices"
+        },
+        {
+          "item": "cheddar cheese, grated",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "green salad, to serve",
+          "amount": 1,
+          "unit": "to_taste"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Mix the tuna, mayonnaise, spring onions, salt and pepper together in a bowl."
+        },
+        {
+          "step": 2,
+          "instruction": "Pile the tuna mixture onto the toasted bread, top generously with the grated cheese."
+        },
+        {
+          "step": 3,
+          "instruction": "Place under a hot grill for 2-3 minutes until the cheese is melted and bubbly. Serve with a green salad."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Banana and Cinnamon Pancakes",
+      "category": "Refuel Meal",
+      "rating": 4.3,
+      "ratingCount": 125,
+      "servings": 4,
+      "image": "/images/banana-cinnamon-pancakes.jpg",
+      "ingredients": [
+        {
+          "item": "fat-free quark",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "large eggs",
+          "amount": 8,
+          "unit": "whole"
+        },
+        {
+          "item": "plain flour",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "salt",
+          "amount": 4,
+          "unit": "pinch"
+        },
+        {
+          "item": "olive oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "medium banana, peeled and sliced (100g)",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "maple syrup",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "item": "ground cinnamon",
+          "amount": 4,
+          "unit": "pinch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Put the quark, eggs, flour and pinch of salt into a liquidiser and blend until smooth."
+        },
+        {
+          "step": 2,
+          "instruction": "Heat a non-stick frying pan over a medium-high heat and add the oil. Pour in enough batter to coat the base of the pan then cook for a minute on each side until golden. Repeat with the remaining batter."
+        },
+        {
+          "step": 3,
+          "instruction": "Fold or stack the pancakes and serve with the banana, maple syrup and sprinkle of cinnamon."
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Banana and Maple Porridge",
+      "category": "Refuel Meal",
+      "rating": 4.9,
+      "ratingCount": 238,
+      "servings": 4,
+      "image": "/images/banana-maple-porridge.jpg",
+      "ingredients": [
+        {
+          "item": "rolled oats",
+          "amount": 90,
+          "unit": "g"
+        },
+        {
+          "item": "unsalted butter",
+          "amount": 35,
+          "unit": "g"
+        },
+        {
+          "item": "maple syrup",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "item": "light brown sugar",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "item": "ground cinnamon",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "item": "raisins",
+          "amount": 45,
+          "unit": "g"
+        },
+        {
+          "item": "fat-free yoghurt, greek or natural",
+          "amount": 365,
+          "unit": "g"
+        },
+        {
+          "item": "protein powder, vanilla or unflavoured",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "item": "small bananas, peeled and sliced",
+          "amount": 4,
+          "unit": "whole"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Combine the oats, butter, maple syrup, sugar and cinnamon in a saucepan over medium heat. Cook gently, stirring, until the butter has melted and the oats are well coated."
+        },
+        {
+          "step": 2,
+          "instruction": "Stir in the raisins and a splash of water. Cook for a few minutes until thickened to your liking."
+        },
+        {
+          "step": 3,
+          "instruction": "Whisk the protein powder into the yoghurt until smooth. Spoon the porridge into bowls, top with the yoghurt mixture and sliced banana, drizzle with extra maple syrup."
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Cheese-Stuffed Burger",
+      "category": "Refuel Meal",
+      "rating": 4.7,
+      "ratingCount": 73,
+      "servings": 4,
+      "image": "/images/cheese-stuffed-burger.jpg",
+      "ingredients": [
+        {
+          "item": "5% fat beef mince",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "item": "smoked paprika",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "cheddar cheese, cut into chunks",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "burger buns, split",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "mayonnaise",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "item": "tomato ketchup",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "item": "lettuce leaves",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "tomato, sliced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "sweet potato fries, to serve",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 200C. Tip the sweet potato fries into a roasting tray, drizzle over the oil and season with salt and pepper. Roast in the oven for 20 minutes until crisp."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile put the beef into a bowl and season with smoked paprika, salt and pepper. Using wet hands, shape the mixture into two balls then flatten out. Make a dent in the centre of each with your thumb then fill with the cheese. Press the two halves together to seal then flatten out into a patty slightly larger than the burger bun."
+        },
+        {
+          "step": 3,
+          "instruction": "Heat a griddle pan over a high heat and cook the burger for 7-8 minutes, turning regularly, until cooked through. Transfer to a warm plate to rest."
+        },
+        {
+          "step": 4,
+          "instruction": "Mix the mayonnaise and ketchup together, spread over the cut sides of the bun and lay the burger on top of the bun base. Add the lettuce, sliced tomato and the bun top then serve with the sweet potato fries."
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Chicken Arrabbiata with Penne",
+      "category": "Refuel Meal",
+      "rating": 4.5,
+      "ratingCount": 115,
+      "servings": 4,
+      "image": "/images/chicken-arrabbiata.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "skinless chicken breast, sliced into thin strips",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "red onion, peeled and finely sliced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "red pepper, deseeded and sliced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "red chilli, sliced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "brown sugar",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "item": "pitted black olives, sliced",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "dried penne pasta",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "basil, leaves torn",
+          "amount": 4,
+          "unit": "small_bunch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat half of the oil in a large saucepan, season the chicken with salt and pepper then fry until golden brown. Remove from the pan and set aside."
+        },
+        {
+          "step": 2,
+          "instruction": "Heat the remaining oil, add the onion, pepper and chilli and fry for 5 minutes until soft. Add the garlic, fry for a minute then add the sugar, tomatoes and olives. Simmer for 10 minutes then return the chicken to the pan and cook for a further 5 minutes."
+        },
+        {
+          "step": 3,
+          "instruction": "Meanwhile cook the pasta according to the packet instructions and drain."
+        },
+        {
+          "step": 4,
+          "instruction": "Add the pasta to the sauce along with the basil, stir to combine and serve."
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Chicken Katsu Curry",
+      "category": "Refuel Meal",
+      "rating": 4.7,
+      "ratingCount": 61,
+      "cookTime": "50 min",
+      "servings": 4,
+      "image": "/images/chicken-katsu-curry.jpg",
+      "ingredients": [
+        {
+          "item": "vegetable oil",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "ginger, peeled and grated",
+          "amount": 40,
+          "unit": "g"
+        },
+        {
+          "item": "onion, peeled and finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "small apple, peeled and grated",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "curry powder",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "turmeric",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "chicken stock or water",
+          "amount": 480,
+          "unit": "ml"
+        },
+        {
+          "item": "salt",
+          "amount": 4,
+          "unit": "pinch"
+        },
+        {
+          "item": "skinless chicken breast",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "item": "plain flour",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "medium egg, beaten",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "panko or fine white breadcrumbs",
+          "amount": 60,
+          "unit": "g"
+        },
+        {
+          "item": "sushi rice or short grain rice",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "mixed salad leaves",
+          "amount": 4,
+          "unit": "handful"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat half of the oil in a large saucepan, season the chicken with salt and pepper then fry until golden brown. Remove from the pan and set aside."
+        },
+        {
+          "step": 2,
+          "instruction": "Heat the remaining oil, add the onion, garlic, ginger and apple and fry for 5 minutes until soft. Add the curry powder and turmeric, fry for a minute then pour in the stock. Bring to a simmer and cook for 10 minutes."
+        },
+        {
+          "step": 3,
+          "instruction": "Meanwhile coat the chicken in flour, then beaten egg, then breadcrumbs. Heat the rest of the oil and shallow fry the chicken until golden and cooked through, about 4-5 minutes per side."
+        },
+        {
+          "step": 4,
+          "instruction": "Cook the rice according to packet instructions. Slice the chicken and serve with the curry sauce, rice and salad."
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Chilli Cheese Fries",
+      "category": "Refuel Meal",
+      "rating": 4.8,
+      "ratingCount": 40,
+      "cookTime": "40 min",
+      "servings": 4,
+      "image": "/images/chilli-cheese-fries.jpg",
+      "ingredients": [
+        {
+          "item": "potato, cut into wedges",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "item": "olive oil",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "onion, peeled and diced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "chipotle paste",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 6,
+          "unit": "tsp"
+        },
+        {
+          "item": "tinned black beans, drained",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "dried red lentils",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "water",
+          "amount": 440,
+          "unit": "ml"
+        },
+        {
+          "item": "salt",
+          "amount": 4,
+          "unit": "pinch"
+        },
+        {
+          "item": "quark",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "smoked paprika",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "cheddar cheese, grated",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "coriander, leaves torn",
+          "amount": 4,
+          "unit": "small_bunch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 200C. Toss the potato wedges with half the oil, season with salt and pepper, and roast for 30-35 minutes until golden and crisp."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile heat the remaining oil in a saucepan, add the onion and fry for 4-5 minutes. Stir in the chipotle paste and tomato puree, fry for a minute, then add the black beans, lentils, tomatoes and water. Bring to a simmer then cover and cook for 20 minutes until the lentils are soft. Season with salt."
+        },
+        {
+          "step": 3,
+          "instruction": "Preheat the grill to high. Spoon the chilli over the wedges, top with the cheese, then slide under the grill for 3-4 minutes or until the cheese is melted and golden. Meanwhile, mix the quark with the smoked paprika."
+        },
+        {
+          "step": 4,
+          "instruction": "Scatter the coriander over the chilli cheese fries and serve with the quark."
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Chunky Fish Finger Sandwich",
+      "category": "Refuel Meal",
+      "rating": 4.9,
+      "ratingCount": 64,
+      "servings": 1,
+      "image": "/images/fish-finger-sandwich.jpg",
+      "ingredients": [
+        {
+          "item": "chunky cod fish fingers",
+          "amount": 3,
+          "unit": "whole"
+        },
+        {
+          "item": "baby spinach",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "item": "olive oil",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "item": "small egg",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "slices sourdough bread, toasted",
+          "amount": 2,
+          "unit": "slices"
+        },
+        {
+          "item": "tomato ketchup",
+          "amount": 10,
+          "unit": "g"
+        },
+        {
+          "item": "black pepper",
+          "amount": 1,
+          "unit": "pinch"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Preheat the oven and cook the fish fingers according to the packet instructions."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile place the spinach in a saucepan along with a splash of water, add the lid and leave to wilt over a medium heat for a few minutes."
+        },
+        {
+          "step": 3,
+          "instruction": "Heat the oil in a non-stick saucepan over a medium to high heat and fry the egg until the white is just set and the yolk is still runny, or until cooked to your liking."
+        },
+        {
+          "step": 4,
+          "instruction": "Spread one of the pieces of toast with ketchup, pile the spinach and fish fingers on top then add the fried egg. Season with a little black pepper, top with the second slice of toast and tuck in."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Creamy Cajun Chicken Pasta",
+      "category": "Refuel Meal",
+      "rating": 4.5,
+      "ratingCount": 31,
+      "servings": 4,
+      "image": "/images/creamy-cajun-chicken-pasta.jpg",
+      "ingredients": [
+        {
+          "item": "dried pasta such as rigatoni, penne or fusilli",
+          "amount": 160,
+          "unit": "g"
+        },
+        {
+          "item": "frozen peas",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "small onion, peeled and diced",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "skinless chicken breast, sliced into thin strips",
+          "amount": 420,
+          "unit": "g"
+        },
+        {
+          "item": "cajun seasoning",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "quark",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Cook the pasta according to packet instructions, adding the peas for the last 2 minutes. Drain, reserving a cupful of cooking water."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile heat the oil in a frying pan, fry the onion for a few minutes until soft. Add the chicken and cajun seasoning, fry for 5-6 minutes until golden and cooked through."
+        },
+        {
+          "step": 3,
+          "instruction": "Stir the quark through the chicken with a splash of pasta water to loosen. Add the pasta and peas, toss to coat. Season to taste."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Crispy Chicken Burger",
+      "category": "Refuel Meal",
+      "rating": 4.7,
+      "ratingCount": 90,
+      "servings": 4,
+      "image": "/images/crispy-chicken-burger.jpg",
+      "ingredients": [
+        {
+          "item": "skinless chicken breast",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "buttermilk",
+          "amount": 240,
+          "unit": "ml"
+        },
+        {
+          "item": "plain flour",
+          "amount": 100,
+          "unit": "g"
+        },
+        {
+          "item": "cornflakes, crushed",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "smoked paprika",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "vegetable oil",
+          "amount": 4,
+          "unit": "tbsp"
+        },
+        {
+          "item": "burger buns, split",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "iceberg lettuce, shredded",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "pickles, sliced",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "mayonnaise",
+          "amount": 4,
+          "unit": "tbsp"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Marinate the chicken in the buttermilk for at least 30 minutes (or overnight if possible)."
+        },
+        {
+          "step": 2,
+          "instruction": "Mix the flour, crushed cornflakes, paprika, salt and pepper in a shallow bowl. Drain the chicken and coat thoroughly in the flour mixture."
+        },
+        {
+          "step": 3,
+          "instruction": "Heat the oil in a frying pan over medium-high heat. Cook the chicken for 5-6 minutes each side until golden and cooked through."
+        },
+        {
+          "step": 4,
+          "instruction": "Spread mayonnaise on the buns, top with lettuce, the crispy chicken and pickles."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Mac and Cheese",
+      "category": "Refuel Meal",
+      "rating": 4.6,
+      "ratingCount": 119,
+      "cookTime": "25 min",
+      "cookingMethod": "Batch cooking",
+      "servings": 4,
+      "image": "/images/mac-and-cheese.jpg",
+      "ingredients": [
+        {
+          "item": "macaroni",
+          "amount": 320,
+          "unit": "g"
+        },
+        {
+          "item": "skinless chicken breast, diced",
+          "amount": 400,
+          "unit": "g"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "olive oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "plain flour",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "item": "skimmed milk",
+          "amount": 600,
+          "unit": "ml"
+        },
+        {
+          "item": "english mustard powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "item": "mature cheddar cheese, grated",
+          "amount": 200,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Bring a pan of water to the boil. Cook the macaroni according to the packet instructions, drain and set to one side."
+        },
+        {
+          "step": 2,
+          "instruction": "While the pasta cooks heat a non-stick frying pan, season the chicken with salt and pepper and fry for 3-4 minutes or until cooked through."
+        },
+        {
+          "step": 3,
+          "instruction": "Preheat the grill to high. In a large saucepan over low heat, add the flour, milk and mustard powder. Mix constantly with a whisk to avoid any lumps forming. Bring to the boil then simmer gently until the sauce begins to thicken. Mix in most of the cheese, reserving some to sprinkle on top. Add a splash of water if the sauce gets too thick."
+        },
+        {
+          "step": 4,
+          "instruction": "Add the chicken and pasta to the cheese sauce, stir well then spoon into a baking dish. Top with the remaining cheese and grill for 3-4 minutes until the cheese is golden. Serve immediately."
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "One Pan Speedy Tuna Pasta",
+      "category": "Refuel Meal",
+      "rating": 4.3,
+      "ratingCount": 69,
+      "servings": 4,
+      "image": "/images/tuna-pasta.jpg",
+      "ingredients": [
+        {
+          "item": "dried pasta such as rigatoni, penne or fusilli",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "peas",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "tinned tuna in water or brine, drained",
+          "amount": 440,
+          "unit": "g"
+        },
+        {
+          "item": "lightest cream cheese",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "olive oil",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Cook the pasta according to packet instructions, adding the peas for the last 2 minutes of cooking. Drain, reserving a small cupful of pasta water."
+        },
+        {
+          "step": 2,
+          "instruction": "Return the pasta and peas to the pan, add the tuna, cream cheese and olive oil along with a splash of pasta water. Stir to combine until you have a creamy sauce. Season to taste and serve."
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Spaghetti Bolognese",
+      "category": "Refuel Meal",
+      "rating": 4.7,
+      "ratingCount": 68,
+      "cookTime": "30 min",
+      "cookingMethod": "Batch cooking",
+      "servings": 4,
+      "image": "/images/spaghetti-bolognese.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "5% fat beef mince",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 6,
+          "unit": "tbsp"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "item": "mixed dried herbs",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "dried spaghetti",
+          "amount": 180,
+          "unit": "g"
+        },
+        {
+          "item": "parmesan or hard cheese, finely grated",
+          "amount": 40,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the oil in a large frying pan over medium-high heat. Fry the beef mince until browned, breaking it up with a wooden spoon. Add the garlic and tomato puree, cook for a minute."
+        },
+        {
+          "step": 2,
+          "instruction": "Add the chopped tomatoes, mixed herbs and a splash of water. Bring to a simmer and cook for 15-20 minutes until thickened. Season with salt and pepper."
+        },
+        {
+          "step": 3,
+          "instruction": "Meanwhile cook the spaghetti according to the packet instructions. Drain and divide between bowls."
+        },
+        {
+          "step": 4,
+          "instruction": "Spoon the bolognese sauce over the spaghetti and finish with grated parmesan."
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Speedy Pasta Carbonara",
+      "category": "Refuel Meal",
+      "rating": 4.9,
+      "ratingCount": 33,
+      "servings": 4,
+      "image": "/images/pasta-carbonara.jpg",
+      "ingredients": [
+        {
+          "item": "dried tagliatelle or spaghetti",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "lean bacon medallions, diced",
+          "amount": 260,
+          "unit": "g"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "ground black pepper",
+          "amount": 4,
+          "unit": "pinch"
+        },
+        {
+          "item": "egg yolk",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "pecorino, parmesan or hard cheese, finely grated",
+          "amount": 80,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Cook the pasta according to packet instructions, reserving a cupful of pasta water before draining."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile heat the oil in a frying pan, add the bacon and cook until crispy. Add the garlic and pepper, cook for another minute."
+        },
+        {
+          "step": 3,
+          "instruction": "Whisk the egg yolks with most of the cheese in a bowl. Off the heat, add the drained pasta to the bacon, then quickly stir through the egg mixture with a splash of pasta water until creamy. Top with remaining cheese."
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Tomato Pasta Bake",
+      "category": "Refuel Meal",
+      "rating": 4.7,
+      "ratingCount": 56,
+      "cookTime": "35 min",
+      "cookingMethod": "Batch cooking",
+      "servings": 4,
+      "image": "/images/tomato-pasta-bake.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 8,
+          "unit": "tsp"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 600,
+          "unit": "g"
+        },
+        {
+          "item": "dried oregano",
+          "amount": 4,
+          "unit": "pinch"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "dried pasta such as rigatoni, penne or fusilli",
+          "amount": 220,
+          "unit": "g"
+        },
+        {
+          "item": "low-fat cream cheese",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "parmesan or hard cheese, finely grated",
+          "amount": 40,
+          "unit": "g"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Preheat the oven to 200C. Heat the oil in a large saucepan, fry the garlic for a minute. Add the tomato puree, tomatoes and oregano. Simmer for 7-8 minutes then remove from the heat and season to taste."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile cook the pasta according to the packet instructions then drain, reserving a little of the cooking water. Tip the pasta, cream cheese and a little of the reserved cooking water into the pan with the sauce, stir to combine then tip into an ovenproof dish. Scatter over the parmesan then bake for 15 minutes or until golden brown and bubbling on top. Remove from the oven and serve."
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Low Carb Shepherd's Pie",
+      "category": "General Meal",
+      "rating": 4.7,
+      "ratingCount": 57,
+      "servings": 4,
+      "image": "/images/low-carb-shepherds-pie.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "item": "onion, peeled and finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "carrot, peeled and finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "clove garlic, peeled and crushed",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "lamb mince",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "item": "plain flour",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "tomato puree",
+          "amount": 30,
+          "unit": "g"
+        },
+        {
+          "item": "lamb or chicken stock cube, made up with 300ml of boiling water",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "worcestershire sauce",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "cauliflower florets",
+          "amount": 455,
+          "unit": "g"
+        },
+        {
+          "item": "skimmed milk",
+          "amount": 220,
+          "unit": "ml"
+        },
+        {
+          "item": "cheddar cheese, grated",
+          "amount": 70,
+          "unit": "g"
+        },
+        {
+          "item": "white breadcrumbs",
+          "amount": 25,
+          "unit": "g"
+        },
+        {
+          "item": "parmesan or hard cheese, finely grated",
+          "amount": 20,
+          "unit": "g"
+        },
+        {
+          "item": "green salad, to serve",
+          "amount": 1,
+          "unit": "to_taste"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the oil in a large saucepan, add the onion, carrot and garlic and cook gently for 5 minutes until soft. Increase the heat, add the lamb mince and fry for 5 minutes until browned. Add the flour and tomato puree, fry for a minute then pour in the stock and Worcestershire sauce. Bring to a simmer then cook for 15 minutes until thickened, stirring occasionally. Season to taste with salt and pepper."
+        },
+        {
+          "step": 2,
+          "instruction": "Meanwhile make the topping. Put the cauliflower florets into a saucepan, pour over the milk and bring to a simmer. Cover with a lid and cook for 15 minutes until the cauliflower is soft. Remove from the heat, and strain the cauliflower, keeping the milk. Put the cooked cauliflower into a food processor with the cheddar and blend, adding enough of the milk to make a smooth puree."
+        },
+        {
+          "step": 3,
+          "instruction": "Meanwhile preheat the grill to a medium-high heat. Pour the lamb mixture into an ovenproof dish and spread out in an even layer. Spoon the cauliflower mash over the top then scatter over the breadcrumbs and the parmesan and grill for 8-10 minutes until golden brown and bubbling. Leave to cool slightly then serve with a simple green salad."
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "One Pan Cheesy Beef Casserole",
+      "category": "General Meal",
+      "rating": 4.3,
+      "ratingCount": 76,
+      "servings": 3,
+      "note": "This recipe works best when making 3 servings at once.",
+      "image": "/images/one-pan-cheesy-beef-casserole.jpg",
+      "ingredients": [
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "onion, finely chopped",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "red pepper",
+          "amount": 150,
+          "unit": "g"
+        },
+        {
+          "item": "5% fat beef mince",
+          "amount": 380,
+          "unit": "g"
+        },
+        {
+          "item": "cauliflower florets",
+          "amount": 230,
+          "unit": "g"
+        },
+        {
+          "item": "tinned chopped tomatoes",
+          "amount": 305,
+          "unit": "g"
+        },
+        {
+          "item": "chipotle paste",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "item": "dried oregano",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "cheddar cheese, grated",
+          "amount": 55,
+          "unit": "g"
+        },
+        {
+          "item": "jarred jalapenos",
+          "amount": 1,
+          "unit": "handful"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Heat the oil in a large frying pan over a medium high heat and fry the onion, pepper and beef mince for a few minutes before adding in the cauliflower florets and cooking for a few minutes more."
+        },
+        {
+          "step": 2,
+          "instruction": "Add in the chopped tomatoes, chipotle paste and dried oregano and stir everything together."
+        },
+        {
+          "step": 3,
+          "instruction": "Simmer over a low heat for 10 minutes then scatter over the cheese and jalapenos before serving. (If you like, you can place the dish under the grill for a few minutes before serving to make the cheese lovely and golden.)"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Quick Chicken Tacos",
+      "category": "General Meal",
+      "rating": 4.8,
+      "ratingCount": 104,
+      "cookTime": "25 min",
+      "cookingMethod": "Family friendly",
+      "servings": 4,
+      "image": "/images/quick-chicken-tacos.jpg",
+      "ingredients": [
+        {
+          "item": "skinless chicken breast, cut into small chunks",
+          "amount": 460,
+          "unit": "g"
+        },
+        {
+          "item": "olive oil",
+          "amount": 4,
+          "unit": "tsp"
+        },
+        {
+          "item": "ground cumin",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "smoked paprika",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "item": "salt and pepper",
+          "amount": 1,
+          "unit": "to_taste"
+        },
+        {
+          "item": "avocado, peeled, pitted and diced",
+          "amount": 120,
+          "unit": "g"
+        },
+        {
+          "item": "red onion, peeled and finely chopped",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "item": "tomato, finely chopped",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "red chilli, deseeded and finely chopped",
+          "amount": 4,
+          "unit": "whole"
+        },
+        {
+          "item": "lime, juice",
+          "amount": 2,
+          "unit": "whole"
+        },
+        {
+          "item": "coriander, chopped",
+          "amount": 4,
+          "unit": "small_bunch"
+        },
+        {
+          "item": "taco shells",
+          "amount": 8,
+          "unit": "whole"
+        },
+        {
+          "item": "feta, crumbled",
+          "amount": 80,
+          "unit": "g"
+        },
+        {
+          "item": "hot sauce, to serve",
+          "amount": 1,
+          "unit": "to_taste"
+        }
+      ],
+      "method": [
+        {
+          "step": 1,
+          "instruction": "Put the chicken into a bowl, add the oil and spices then season with salt and pepper. Toss everything together until the chicken is evenly coated. Set aside to marinate for 10 minutes (or up to 30 minutes if you have time)."
+        },
+        {
+          "step": 2,
+          "instruction": "Preheat a griddle pan to a high heat, add the chicken and cook for 6-7 minutes, shaking the pan occasionally to ensure it cooks evenly. Once the chicken is cooked through, transfer to a bowl to rest for a couple of minutes."
+        },
+        {
+          "step": 3,
+          "instruction": "Meanwhile combine the avocado, onion, tomato, chilli, lime juice and coriander in a small bowl and season to taste."
+        },
+        {
+          "step": 4,
+          "instruction": "Warm the taco shells in the oven or microwave according to the packet instructions, then fill with the chicken and salsa, sprinkle over the feta. Serve with hot sauce (optional)."
+        }
       ]
     }
   ]

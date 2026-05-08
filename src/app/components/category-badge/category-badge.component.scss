@@ -4,25 +4,25 @@
 
 .badge {
   display: inline-block;
-  padding: 0.25rem 0.625rem;
-  font-size: var(--text-xs);
-  font-weight: 500;
-  border-radius: 9999px;
+  padding: 0.2rem 0.625rem;
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  border-radius: var(--radius-full);
   text-transform: uppercase;
-  letter-spacing: 0.025em;
+  letter-spacing: 0.06em;
 }
 
 .badge--snack {
-  background: rgba(212, 163, 115, 0.15);
-  color: #b3855a;
+  background: var(--color-accent-xlight);
+  color: var(--color-accent-dark);
 }
 
 .badge--general {
-  background: rgba(74, 124, 89, 0.12);
-  color: #3a6347;
+  background: var(--color-secondary-xlight);
+  color: var(--color-secondary-dark);
 }
 
 .badge--refuel {
-  background: rgba(232, 106, 51, 0.12);
-  color: #c4552a;
+  background: var(--color-primary-xlight);
+  color: var(--color-primary-dark);
 }

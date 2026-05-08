@@ -49,11 +49,17 @@
   --font-display: 'Playfair Display', Georgia, serif;
   --font-body: 'Inter', system-ui, -apple-system, sans-serif;
 
-  --text-hero: 2rem;
-  --text-h1: 1.75rem;
-  --text-h2: 1.375rem;
+  --text-hero: 2.25rem;
+  --text-h1: 1.875rem;
+  --text-h2: 1.5rem;
   --text-h3: 1.125rem;
   --text-body: 1rem;
   --text-small: 0.875rem;
   --text-xs: 0.75rem;
+  --text-2xs: 0.6875rem;
+
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-normal: 1.6;
+  --leading-relaxed: 1.75;
 }

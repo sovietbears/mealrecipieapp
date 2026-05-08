@@ -1,6 +1,10 @@
-<article class="recipe-card" (click)="onView()">
+<article class="recipe-card" [class]="'recipe-card recipe-card--' + recipe().category.toLowerCase().replace(' ', '-')" (click)="onView()">
   <div class="recipe-card__image">
-    <app-category-icon [category]="recipe().category" />
+    @if (recipe().image) {
+      <img [src]="recipe().image" [alt]="recipe().name" class="recipe-card__photo" />
+    } @else {
+      <app-category-icon [category]="recipe().category" />
+    }
   </div>
 
   <div class="recipe-card__content">

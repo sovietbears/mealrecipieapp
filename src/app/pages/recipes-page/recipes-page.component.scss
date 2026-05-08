@@ -1,15 +1,15 @@
 .recipes-page {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1.5rem 1.25rem;
+  padding: 1.75rem 1.25rem;
 
   @media (min-width: 768px) {
-    padding: 2rem 2rem;
+    padding: 2.5rem 2rem;
   }
 }
 
 .page-header {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
 }
 
 .page-title {
@@ -17,82 +17,126 @@
   font-size: var(--text-hero);
   color: var(--color-text);
   margin: 0;
+  letter-spacing: -0.02em;
+  line-height: var(--leading-tight);
 }
 
 .page-subtitle {
   color: var(--color-text-muted);
-  margin: 0.25rem 0 0;
+  margin: 0.375rem 0 0;
   font-size: var(--text-body);
 }
 
+/* Search */
 .search-bar {
-  margin-bottom: 1rem;
+  margin-bottom: 1.125rem;
+}
+
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 440px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.875rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-faint);
+  pointer-events: none;
+  transition: color var(--transition-fast);
 }
 
 .search-input {
   width: 100%;
-  max-width: 400px;
-  padding: 0.625rem 1rem;
-  border: 1px solid var(--color-border);
-  border-radius: 10px;
+  padding: 0.625rem 1rem 0.625rem 2.5rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-full);
   font-family: inherit;
   font-size: var(--text-body);
   background: var(--color-surface);
   color: var(--color-text);
-  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+
+  &::placeholder {
+    color: var(--color-text-faint);
+  }
 
   &:focus {
     outline: none;
     border-color: var(--color-primary-light);
     box-shadow: 0 0 0 3px rgba(232, 106, 51, 0.12);
+
+    ~ .search-icon,
+    + .search-icon {
+      color: var(--color-primary);
+    }
+  }
+
+  /* Hide the native clear button on search inputs */
+  &::-webkit-search-cancel-button {
+    -webkit-appearance: none;
   }
 }
 
+/* Focus-within to tint icon when input focused */
+.search-wrapper:focus-within .search-icon {
+  color: var(--color-primary-light);
+}
+
+/* Category filters */
 .category-filters {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
 }
 
 .filter-pill {
-  padding: 0.375rem 0.875rem;
-  border: 1px solid var(--color-border);
-  border-radius: 9999px;
+  padding: 0.375rem 1rem;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-full);
   background: var(--color-surface);
   color: var(--color-text-muted);
   font-size: var(--text-small);
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.15s ease;
+  transition: all var(--transition-fast);
+  white-space: nowrap;
 
   &:hover {
     border-color: var(--color-primary-light);
-    color: var(--color-text);
+    color: var(--color-primary-dark);
+    background: var(--color-primary-xlight);
   }
 
   &--active {
     background: var(--color-primary);
     color: #fff;
     border-color: var(--color-primary);
+    box-shadow: 0 2px 8px rgba(232, 106, 51, 0.3);
 
     &:hover {
       background: var(--color-primary-dark);
-      color: #fff;
+      border-color: var(--color-primary-dark);
+      box-shadow: 0 2px 10px rgba(196, 85, 42, 0.35);
     }
   }
 }
 
 .results-count {
   font-size: var(--text-small);
-  color: var(--color-text-muted);
-  margin-bottom: 1rem;
+  color: var(--color-text-faint);
+  margin-bottom: 1.25rem;
+  font-weight: 500;
 }
 
 .loading {
   text-align: center;
-  padding: 3rem;
+  padding: 4rem;
   color: var(--color-text-muted);
+  font-size: var(--text-body);
 }
 
 .recipe-grid {

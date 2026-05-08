@@ -41,6 +41,13 @@ export class MealPlanPageComponent {
 
   recipes = computed(() => this.recipeService.recipes.value() ?? []);
 
+  getMealsCountForDay(day: string): number {
+    return this.mealTypes.reduce(
+      (sum, mt) => sum + this.mealPlanService.getEntriesForDayMeal(day as DayOfWeek, mt as MealType).length,
+      0
+    );
+  }
+
   getMealsForDayMeal(day: string, mealType: string) {
     return this.mealPlanService.getEntriesForDayMeal(
       day as DayOfWeek,

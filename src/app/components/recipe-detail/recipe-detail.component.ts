@@ -13,6 +13,7 @@ import { ServingsControlComponent } from '../servings-control/servings-control.c
 import { IngredientListComponent } from '../ingredient-list/ingredient-list.component';
 import { MethodStepsComponent } from '../method-steps/method-steps.component';
 import { CategoryBadgeComponent } from '../category-badge/category-badge.component';
+import { CategoryIconComponent } from '../category-icon/category-icon.component';
 
 @Component({
   selector: 'app-recipe-detail',
@@ -22,6 +23,7 @@ import { CategoryBadgeComponent } from '../category-badge/category-badge.compone
     IngredientListComponent,
     MethodStepsComponent,
     CategoryBadgeComponent,
+    CategoryIconComponent,
   ],
   templateUrl: './recipe-detail.component.html',
   styleUrl: './recipe-detail.component.scss',

@@ -1,28 +1,34 @@
 .servings-control {
   display: inline-flex;
   align-items: center;
-  gap: 0.25rem;
-  border: 1px solid var(--color-border);
-  border-radius: 8px;
+  border: 1.5px solid var(--color-border);
+  border-radius: var(--radius-md);
   overflow: hidden;
   background: var(--color-surface);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+
+  &:focus-within {
+    border-color: var(--color-primary-light);
+    box-shadow: 0 0 0 3px rgba(232, 106, 51, 0.1);
+  }
 }
 
 .stepper-btn {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2rem;
-  height: 2rem;
+  width: 2.125rem;
+  height: 2.125rem;
   border: none;
   background: transparent;
   color: var(--color-primary);
-  font-size: 1rem;
+  font-size: 1.125rem;
+  font-weight: 500;
   cursor: pointer;
-  transition: background 0.15s ease;
+  transition: background var(--transition-fast), color var(--transition-fast);
 
   &:hover:not(:disabled) {
-    background: var(--color-bg);
+    background: var(--color-primary-xlight);
   }
 
   &:disabled {
@@ -32,16 +38,23 @@
 }
 
 input[type='number'] {
-  width: 3rem;
-  height: 2rem;
+  width: 2.75rem;
+  height: 2.125rem;
   border: none;
+  border-left: 1px solid var(--color-border);
+  border-right: 1px solid var(--color-border);
   text-align: center;
   font-family: var(--font-body);
   font-size: var(--text-body);
-  font-weight: 600;
+  font-weight: 700;
   color: var(--color-text);
   background: transparent;
   -moz-appearance: textfield;
+
+  &:focus {
+    outline: none;
+    background: var(--color-primary-xlight);
+  }
 
   &::-webkit-outer-spin-button,
   &::-webkit-inner-spin-button {

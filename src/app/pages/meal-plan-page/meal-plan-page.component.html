@@ -1,8 +1,8 @@
 <div class="meal-plan-page">
   <div class="page-header">
     <div class="header-left">
-      <h1 class="page-title">Your Weekly Meal Plan</h1>
-      <p class="page-subtitle">Click any day to add meals</p>
+      <h1 class="page-title">Your Weekly Plan</h1>
+      <p class="page-subtitle">Click any slot to add a meal</p>
     </div>
     @if (mealPlanService.totalMeals() > 0) {
       <button type="button" class="btn-ghost btn-small" (click)="clearAll()">Clear All</button>
@@ -10,7 +10,7 @@
   </div>
 
   @if (mealPlanService.totalMeals() === 0) {
-    <app-empty-state message="No meals planned yet — tap a day to add your first recipe 🍽️" icon="📅" />
+    <app-empty-state message="No meals planned yet — tap a slot to add your first recipe" icon="📅" />
   }
 
   <div class="plan-grid">
@@ -18,6 +18,9 @@
       <div class="day-card">
         <div class="day-header">
           <span class="day-label">{{ dayLabels[day] }}</span>
+          @if (getMealsCountForDay(day) > 0) {
+            <span class="day-count">{{ getMealsCountForDay(day) }}</span>
+          }
         </div>
         <div class="day-meals">
           @for (mealType of mealTypes; track mealType) {
@@ -29,7 +32,7 @@
               @if (getMealsForDayMeal(day, mealType).length === 0) {
                 <button type="button" class="slot-add-btn" (click)="openAddDialog(day, mealType)">
                   <span>+</span>
-                  <span>Add</span>
+                  <span>Add meal</span>
                 </button>
               }
               @for (entry of getMealsForDayMeal(day, mealType); track entry.id) {
@@ -57,11 +60,11 @@
 
   @if (mealPlanService.totalMeals() > 0) {
     <div class="plan-summary">
-      <span>📊 {{ mealPlanService.totalMeals() }} meals</span>
-      <span>·</span>
-      <span>{{ mealPlanService.totalServings() }} servings</span>
-      <span>·</span>
-      <span>{{ mealPlanService.uniqueRecipes() }} recipes</span>
+      <span><strong>{{ mealPlanService.totalMeals() }}</strong> meals</span>
+      <span class="sep">·</span>
+      <span><strong>{{ mealPlanService.totalServings() }}</strong> servings</span>
+      <span class="sep">·</span>
+      <span><strong>{{ mealPlanService.uniqueRecipes() }}</strong> recipes</span>
     </div>
   }
 

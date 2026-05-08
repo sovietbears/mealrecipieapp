@@ -4,62 +4,72 @@
   <div class="detail-content">
     <button type="button" class="close-btn" (click)="goBack()" aria-label="Close recipe details">&times;</button>
 
-    <div class="detail-header">
-      <app-category-badge [category]="recipe().category" />
-      <h2 class="detail-title">{{ recipe().name }}</h2>
+    <div class="detail-hero" [class]="'detail-hero detail-hero--' + recipe().category.toLowerCase().replace(' ', '-')">
+      @if (recipe().image) {
+        <img [src]="recipe().image" [alt]="recipe().name" class="detail-hero__photo" />
+      } @else {
+        <app-category-icon [category]="recipe().category" />
+      }
+    </div>
 
-      @if (recipe().rating) {
-        <div class="detail-rating">
-          <span class="star">★</span>
-          <span>{{ recipe().rating }}</span>
-          @if (recipe().ratingCount) {
-            <span class="count">({{ recipe().ratingCount }} ratings)</span>
+    <div class="detail-body">
+      <div class="detail-header">
+        <app-category-badge [category]="recipe().category" />
+        <h2 class="detail-title">{{ recipe().name }}</h2>
+
+        @if (recipe().rating) {
+          <div class="detail-rating">
+            <span class="star">★</span>
+            <span>{{ recipe().rating }}</span>
+            @if (recipe().ratingCount) {
+              <span class="count">({{ recipe().ratingCount }} ratings)</span>
+            }
+          </div>
+        }
+
+        @if (recipe().note) {
+          <div class="detail-note">{{ recipe().note }}</div>
+        }
+
+        <div class="detail-meta">
+          @if (recipe().cookTime) {
+            <span class="meta-tag">⏱ {{ recipe().cookTime }}</span>
+          }
+          <span class="meta-tag">🍽 {{ servingsText() }}</span>
+          @if (recipe().cookingMethod) {
+            <span class="meta-tag">🔥 {{ recipe().cookingMethod }}</span>
           }
         </div>
-      }
-
-      @if (recipe().note) {
-        <div class="detail-note">{{ recipe().note }}</div>
-      }
-
-      <div class="detail-meta">
-        @if (recipe().cookTime) {
-          <span class="meta-tag">{{ recipe().cookTime }}</span>
-        }
-        <span class="meta-tag">{{ servingsText() }}</span>
-        @if (recipe().cookingMethod) {
-          <span class="meta-tag">{{ recipe().cookingMethod }}</span>
-        }
       </div>
-    </div>
 
-    <div class="servings-section">
-      <label>Adjust servings:</label>
-      <app-servings-control
-        [servings]="currentServings()"
-        (servingsChange)="onServingsChange($event)"
-      />
-    </div>
+      <div class="servings-section">
+        <label>Adjust servings</label>
+        <app-servings-control
+          [servings]="currentServings()"
+          (servingsChange)="onServingsChange($event)"
+        />
+      </div>
 
-    <div class="detail-section">
-      <h3 class="section-title">Ingredients</h3>
-      <app-ingredient-list
-        [ingredients]="recipe().ingredients"
-        [baseServings]="recipe().servings"
-        [targetServings]="currentServings()"
-      />
-    </div>
+      <div class="detail-section">
+        <h3 class="section-title">Ingredients</h3>
+        <app-ingredient-list
+          [ingredients]="recipe().ingredients"
+          [baseServings]="recipe().servings"
+          [targetServings]="currentServings()"
+        />
+      </div>
 
-    <div class="detail-section">
-      <h3 class="section-title">Method</h3>
-      <app-method-steps [steps]="recipe().method" />
-    </div>
+      <div class="detail-section">
+        <h3 class="section-title">Method</h3>
+        <app-method-steps [steps]="recipe().method" />
+      </div>
 
-    <div class="detail-actions">
-      <button type="button" class="btn-primary" (click)="onAddToPlan()">
-        Add to my week
-      </button>
-      <button type="button" class="btn-ghost" (click)="goBack()">Close</button>
+      <div class="detail-actions">
+        <button type="button" class="btn-primary" (click)="onAddToPlan()">
+          Add to my week
+        </button>
+        <button type="button" class="btn-ghost" (click)="goBack()">Close</button>
+      </div>
     </div>
   </div>
 </dialog>
