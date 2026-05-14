@@ -4,7 +4,6 @@ import { ShoppingListExport } from '../models/shopping-list.model';
 @Injectable({ providedIn: 'root' })
 export class ExportService {
   downloadCSV(items: { item: string; totalAmount: number; unit: string; sources: { recipeName: string }[] }[]): void {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const header = 'Item,Amount,Unit,Source Recipes\n';
     const rows = items.map(
       (item) =>

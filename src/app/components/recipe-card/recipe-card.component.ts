@@ -1,4 +1,4 @@
-import { Component, input, output } from '@angular/core';
+import { Component, input, output, HostListener } from '@angular/core';
 import { Recipe } from '../../models/recipe.model';
 import { CategoryBadgeComponent } from '../category-badge/category-badge.component';
 import { StarRatingComponent } from '../star-rating/star-rating.component';
@@ -15,6 +15,13 @@ export class RecipeCardComponent {
   recipe = input.required<Recipe>();
   view = output<Recipe>();
   addToPlan = output<Recipe>();
+
+  @HostListener('keydown.enter', ['$event'])
+  @HostListener('keydown.space', ['$event'])
+  onKeydown(event: Event): void {
+    event.preventDefault();
+    this.onView();
+  }
 
   onView(): void {
     this.view.emit(this.recipe());

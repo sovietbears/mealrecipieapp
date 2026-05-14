@@ -1,4 +1,11 @@
-<article class="recipe-card" [class]="'recipe-card recipe-card--' + recipe().category.toLowerCase().replace(' ', '-')" (click)="onView()">
+<article
+  class="recipe-card"
+  [class]="'recipe-card recipe-card--' + recipe().category.toLowerCase().replace(' ', '-')"
+  tabindex="0"
+  role="button"
+  [attr.aria-label]="'View recipe: ' + recipe().name"
+  (click)="onView()"
+>
   <div class="recipe-card__image">
     @if (recipe().image) {
       <img [src]="recipe().image" [alt]="recipe().name" class="recipe-card__photo" />

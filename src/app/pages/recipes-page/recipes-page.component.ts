@@ -1,6 +1,7 @@
 import { Component, inject, signal, computed } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Router } from '@angular/router';
+import { Title } from '@angular/platform-browser';
 import { RecipeService } from '../../services/recipe.service';
 import { MealPlanService } from '../../services/meal-plan.service';
 import { Recipe, RecipeCategory } from '../../models/recipe.model';
@@ -30,6 +31,10 @@ export class RecipesPageComponent {
   isLoading = computed(() => this.recipeService.recipes.isLoading());
   hasError = computed(() => !!this.recipeService.recipes.error());
 
+  constructor(title: Title) {
+    title.setTitle('Recipes — MealPlanner');
+  }
+
   categories: (RecipeCategory | 'all')[] = ['all', 'General Meal', 'Refuel Meal', 'Snack'];
   categoryLabels: Record<string, string> = {
     all: 'All',
@@ -38,9 +43,12 @@ export class RecipesPageComponent {
     'Snack': 'Snack',
   };
 
+  private debounceTimer: ReturnType<typeof setTimeout> | null = null;
+  private rawSearch = signal('');
+
   filteredRecipes = computed(() => {
     const all = this.recipes();
-    const query = this.searchQuery().toLowerCase().trim();
+    const query = this.rawSearch().toLowerCase().trim();
     const category = this.selectedCategory();
 
     return all.filter((recipe) => {
@@ -51,7 +59,13 @@ export class RecipesPageComponent {
   });
 
   onSearch(event: Event): void {
-    this.searchQuery.set((event.target as HTMLInputElement).value);
+    const value = (event.target as HTMLInputElement).value;
+    this.searchQuery.set(value);
+
+    if (this.debounceTimer) clearTimeout(this.debounceTimer);
+    this.debounceTimer = setTimeout(() => {
+      this.rawSearch.set(value);
+    }, 150);
   }
 
   onCategoryChange(category: RecipeCategory | 'all'): void {

@@ -6,6 +6,9 @@ import {
   computed,
   input,
   effect,
+  HostListener,
+  OnInit,
+  OnDestroy,
 } from '@angular/core';
 import { RecipeService } from '../../services/recipe.service';
 import { MealPlanService } from '../../services/meal-plan.service';
@@ -18,7 +21,7 @@ import { Recipe } from '../../models/recipe.model';
   templateUrl: './add-meal-dialog.component.html',
   styleUrl: './add-meal-dialog.component.scss',
 })
-export class AddMealDialogComponent {
+export class AddMealDialogComponent implements OnInit, OnDestroy {
   close = output<void>();
   initialDay = input<DayOfWeek>('mon');
   initialMealType = input<MealType>('dinner');
@@ -41,6 +44,20 @@ export class AddMealDialogComponent {
   constructor() {
     effect(() => this.selectedDay.set(this.initialDay()));
     effect(() => this.selectedMealType.set(this.initialMealType()));
+  }
+
+  ngOnInit(): void {
+    document.body.style.overflow = 'hidden';
+  }
+
+  ngOnDestroy(): void {
+    document.body.style.overflow = '';
+  }
+
+  @HostListener('document:keydown.escape', ['$event'])
+  onEscape(event: Event): void {
+    event.preventDefault();
+    this.close.emit();
   }
 
   onSelectRecipe(recipe: Recipe): void {

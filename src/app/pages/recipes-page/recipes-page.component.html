@@ -37,7 +37,19 @@
   </div>
 
   @if (isLoading()) {
-    <div class="loading">Loading recipes...</div>
+    <div class="recipe-grid">
+      @for (_ of [0, 1, 2, 3, 4, 5, 6, 7]; track $index) {
+        <div class="skeleton-card">
+          <div class="skeleton-card__image"></div>
+          <div class="skeleton-card__body">
+            <div class="skeleton-line skeleton-line--badge"></div>
+            <div class="skeleton-line skeleton-line--title"></div>
+            <div class="skeleton-line skeleton-line--meta"></div>
+            <div class="skeleton-line skeleton-line--btn"></div>
+          </div>
+        </div>
+      }
+    </div>
   }
 
   @if (hasError()) {

@@ -1,3 +1,4 @@
+import { Title } from '@angular/platform-browser';
 import {
   Component,
   inject,
@@ -28,6 +29,10 @@ import { EmptyStateComponent } from '../../components/empty-state/empty-state.co
 export class MealPlanPageComponent {
   mealPlanService = inject(MealPlanService);
   recipeService = inject(RecipeService);
+
+  constructor(title: Title) {
+    title.setTitle('Weekly Plan — MealPlanner');
+  }
 
   days = DAYS;
   dayLabels = DAY_LABELS;

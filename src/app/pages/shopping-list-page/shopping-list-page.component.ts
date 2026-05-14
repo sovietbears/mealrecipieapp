@@ -1,4 +1,5 @@
 import { Component, inject, computed } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { MealPlanService } from '../../services/meal-plan.service';
 import { RecipeService } from '../../services/recipe.service';
 import { ShoppingListService } from '../../services/shopping-list.service';
@@ -19,8 +20,13 @@ export class ShoppingListPageComponent {
   private shoppingListService = inject(ShoppingListService);
   private exportService = inject(ExportService);
 
+  constructor(title: Title) {
+    title.setTitle('Shopping List — MealPlanner');
+  }
+
   recipes = computed(() => this.recipeService.recipes.value() ?? []);
-  generatedDate = new Date().toLocaleDateString();
+
+  generatedDate = computed(() => new Date().toLocaleDateString());
 
   shoppingList = computed(() =>
     this.shoppingListService.generate(
