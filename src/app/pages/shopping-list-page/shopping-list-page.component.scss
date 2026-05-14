@@ -48,7 +48,7 @@
   background: var(--color-surface);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-sm);
-  border: 1px solid rgba(232, 221, 208, 0.5);
+  border: 1px solid color-mix(in srgb, var(--color-border) 50%, transparent);
   overflow: hidden;
   overflow-x: auto;
 }

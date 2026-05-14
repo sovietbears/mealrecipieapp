@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 import { MealPlanService } from '../../services/meal-plan.service';
+import { ThemeService } from '../../services/theme.service';
 
 @Component({
   selector: 'app-app-header',
@@ -11,7 +12,8 @@ import { MealPlanService } from '../../services/meal-plan.service';
 export class AppHeaderComponent {
   constructor(
     private router: Router,
-    public mealPlanService: MealPlanService
+    public mealPlanService: MealPlanService,
+    public themeService: ThemeService
   ) {}
 
   get currentTab(): string {
@@ -25,5 +27,9 @@ export class AppHeaderComponent {
 
   isActive(tab: string): boolean {
     return this.currentTab === tab;
+  }
+
+  toggleTheme(): void {
+    this.themeService.toggle();
   }
 }
