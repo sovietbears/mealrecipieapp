@@ -13,8 +13,14 @@ export class ThemeService {
     this.isBrowser = isPlatformBrowser(platformId);
 
     if (this.isBrowser) {
-      // Apply theme attribute on init
-      this.applyTheme(this.theme());
+      // If the inline script already set data-theme, sync the signal to it.
+      // Otherwise compute and apply now.
+      const preApplied = document.documentElement.getAttribute('data-theme') as Theme | null;
+      if (preApplied === 'dark' || preApplied === 'light') {
+        this.theme.set(preApplied);
+      } else {
+        this.applyTheme(this.theme());
+      }
 
       // Listen for OS preference changes
       window
